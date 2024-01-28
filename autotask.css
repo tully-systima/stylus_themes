@@ -1,0 +1,1996 @@
+/* ==UserStyle==
+@name           autotask.net - Jan 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Autotask Dracula theme
+@author         Tully
+==/UserStyle== */
+@-moz-document domain("autotask.net") {
+    body.Centered {
+        background-color: #1b1c24
+    }
+    body.Centered > .VerticalContainer {
+        background-color: #1b1c24
+    }
+    body {
+        color: #f8f8f2;
+        font-family: "Consolas";
+        font-size: 15px
+    }
+    body>.PageContentContainer {
+    background-color: #1b1c24;
+    }
+    .ReadOnlyRichText {
+        color: #f1fa8c;
+        font-family: "Consolas";
+        font-size: 15px
+    }
+    #WorkspaceContainer {
+        background-color: #1b1c24
+    }
+    #PageContainer {
+        background-color: #1b1c24
+    }
+    .Section {
+        background-color: #282a36
+    }
+    .EntityPageColorBar.Ticket {
+        background-color: #ff79c6
+    }
+    body.EntityPage > .MainContainer > .PrimaryContainer {
+        background-color: #282a36
+    }
+    .Grid > .Header {
+        color: #f1fa8c;
+        background-color: #1b1c24
+    }
+    .PageContentContainer {
+        background-color: #1b1c24
+    }
+    body.EntityPage > .MainContainer > .PrimaryContainer > .AccessoryTabContainer > .AccessoryTabShell > .Content > .Grid > .Body > .NoDataMessage > .SimpleEntityPage > .VerticalContainer > .Body > .AccessoryTabContainer > .AccessoryTabShell > .Content > .Grid > .Body > .TimeoutMessage > .SimpleEntityPage > .VerticalContainer > .Body > .AccessoryTabContainer > .AccessoryTabShell > .Content > .Grid > .Body > .NoDataMessage,
+    .Dialog1.SimpleEntityDialog > .VerticalContainer > .Body > .AccessoryTabContainer > .AccessoryTabShell > .Content > .Grid > .Body > .TimeoutMessage,
+    .Dialog1.SimpleEntityDialog > .VerticalContainer > .Body > .AccessoryTabContainer > .AccessoryTabShell > .Content > .Grid > .Body > .NoDataMessage {
+        color: #282a36
+    }
+    body.EntityPage > .MainContainer > .SecondaryContainer {
+        background-color: #282a36
+    }
+    body.FullScroll > .PageHeadingContainer > .EntityPage > .MainContainer > .PrimaryContainer {
+        background-color: #1b1c24
+    }
+    body.FullScroll > .PageHeadingContainer {
+        background-color: #282a36
+    }
+    .DashboardTabContainer1 {
+        background-color: #1b1c24
+    }
+    .InsightShell {
+        background: #1b1c24
+    }
+    .Section {
+        background-color: #1b1c24
+    }
+    .Section.Collapsed {
+        background-color: #1b1c24
+    }
+    .EntityNew > .MainContainer > .SecondaryContainer.Left .DetailsSection,
+    .EntityEdit > .MainContainer > .SecondaryContainer.Left .DetailsSection,
+    .EntityDetail > .MainContainer > .SecondaryContainer.Left .DetailsSection {
+        background-color: #1b1c24
+    }
+    .Section > .CollapsibleSectionContainer > .DescriptionText,
+    .Section > .SectionContainer > .DescriptionText,
+    .Section > .CollapsibleSectionContainer > .ContentContainer > .Content > .DescriptionText {
+        color: #f1fa8c
+    }
+    .Section > .CollapsibleSectionContainer > .ContentContainer > .Content > .SubHeader,
+    .Section > .SectionContainer > .ContentContainer > .Content > .SubHeader {
+        color: #f1fa8c
+    }
+    .Section > .CollapsibleSectionContainer > .ContentContainer > .Content .PageNavigationLink .StandardText,
+    .Section > .SectionContainer > .ContentContainer > .Content .PageNavigationLink .StandardText {
+        color: #f1fa8c
+    }
+    .Section > .CollapsibleSectionContainer > .ContentContainer > .Content .PageNavigationLink .AccountText,
+    .Section > .SectionContainer > .ContentContainer > .Content .PageNavigationLink .AccountText {
+        color: #f1fa8c
+    }
+    .Section > .CollapsibleSectionContainer > .ContentContainer > .Content > .HorizontalBar,
+    .Section > .SectionContainer > .ContentContainer > .Content > .HorizontalBar {
+        background-color: #1b1c24
+    }
+    .Section > .CollapsibleSectionContainer > .ContentContainer > .Content > .Column.Large > .NotificationPanel > .Content,
+    .Section > .CollapsibleSectionContainer > .ContentContainer > .Content > .ReplaceableColumnContainer > div > .Column.Large > .NotificationPanel > .Content,
+    .Section > .SectionContainer > .ContentContainer > .Content > .Column.Large > .NotificationPanel > .Content,
+    .Section > .SectionContainer > .ContentContainer > .Content > .ReplaceableColumnContainer > div > .Column.Large > .NotificationPanel > .Content {
+        background-color: #1b1c24
+    }
+    .ContextOverlay .Group > .Heading > .Text {
+        color: #f1fa8c
+    }
+    .ContextOverlay .Group > .Heading > .SecondaryText {
+        color: #f1fa8c
+    }
+    .Section > .CollapsibleSectionContainer > .ContentContainer > .Content .PageNavigationLinkGroup .Heading .Text,
+    .Section > .SectionContainer > .ContentContainer > .Content .PageNavigationLinkGroup .Heading .Text {
+        color: #f1fa8c
+    }
+    .Section > .CollapsibleSectionContainer > .ContentContainer > .Content .PageNavigationLinkGroup .Important,
+    .Section > .SectionContainer > .ContentContainer > .Content .PageNavigationLinkGroup .Important {
+        background: #1b1c24
+    }
+    .DetailsSection > .CollapsibleSectionContainer > .ContentContainer > .Content > .ReadOnlyData > .ReadOnlyLabelContainer,
+    .DetailsSection > .SectionContainer > .ContentContainer > .Content > .ReadOnlyData > .ReadOnlyLabelContainer,
+    .ReadOnlyDetailsContainer > .ReadOnlyData > .ReadOnlyLabelContainer {
+        color: #8be9fd
+    }
+    .ReadOnlyDetailsContainer > .ReadOnlyData > .ReadOnlyValueContainer > .Value {
+        color: #bd93f9;
+    }
+    .CollapsibleSectionContainer {
+        background-color: #1b1c24
+    }
+    .HeadingContainer > .Heading.Collapse > .Toggle.CheckmarkToggle {
+        background-color: #ff79c6
+    }
+    .ContextOverlay.ChipContextOverlay > .Content {
+        background-color: #414a57;
+        color: #f1fa8c
+    }
+    .DetailsSection > .CollapsibleSectionContainer > .HeadingContainer > .Title > .Left {
+        color: #ff79c6;
+    }
+    a.Button {
+        background: #2b2f40;
+        color: #f1fa8c
+    }
+    a.Button.HoverState {
+        background: #25293a
+    }
+    a.Button.SuggestiveBackground {
+        background: #376a94;
+        color: #f1fa8c
+    }
+    a.Button.SuggestiveBackground.HoverState {
+        background: #2c5576
+    }
+    a.Button.WarningBackground {
+        background: #9a1015;
+        color: #f1fa8c
+    }
+    a.Button.WarningBackground.HoverState {
+        background: #c00
+    }
+    .ContextOverlay .Button.Navigation .SecondaryText,
+    .ContextOverlay .Button.Navigation .AccountText {
+        color: #f1fa8c
+    }
+    .ContextOverlay .Group > .Content > a.Button.DisabledState {
+        color: #4e6973
+    }
+    .ContextOverlay .Group > .Content > a.Button.HoverState,
+    .ContextOverlay .Group > .Content > a.Button.SelectedState {
+        background: #3e4251
+    }
+    .ContextOverlay .ContextOverlayColumn .Group > .Content > a.Button.CopyTextMenuButton.NormalState:hover {
+        background: rgba(25, 158, 217, 0.3)
+    }
+    .Editor > .InputField > a.Button.IconOnly.HoverState {
+        background: none
+    }
+    .ButtonContainer > a.Button.SelectedState {
+        background: #25293a
+    }
+    .DropDownButtonContainer a.Button.CombinedHover.HoverState,
+    .DropDownButtonContainer a.Button.DropDownArrow.HoverState {
+        background-color: #282a36
+    }
+    .HeadingRow .DropDownButtonContainer a.Button.DropDownArrow.HoverState {
+        background: #282a36
+    }
+    .TabBar a.Button {
+        color: #cdd4d7
+    }
+    .TabBar a.Button.NormalState {
+        color: #cdd4d7
+    }
+    .TabBar a.Button.HoverState {
+        color: #f1fa8c
+    }
+    .TabBar a.Button.SelectedState {
+        color: #f1fa8c
+    }
+    .TabBar a.Button.DisabledState {
+        color: #4e6973
+    }
+    .TabBar a.Button.ValidationFailure {
+        color: #ff5555
+    }
+    a.Button.Link {
+        color: #ff79c6
+    }
+    a.Button.Link.DisabledState {
+        color: #f1fa8c
+    }
+    .TaskTimeline > .Navigation > a.Button.Link {
+        color: #65b0ee
+    }
+    .MessageBarIconPickerButton > .IconBackground {
+        background-color: #282a36
+    }
+    .WhatsNewMenuButtonContainer .UpdateIndicatorWrapper .UpdateIndicator {
+        background: red
+    }
+    #DelayNotification {
+        background-color: #282a36
+    }
+    .ContextOverlay {
+        background-color: #44475a
+    }
+    .ContextOverlay.DropDownButton {
+        background-color: #282a36
+    }
+    .ColorPickerContextOverlay .ColorContainer.Selected {
+        background-color: #353949
+    }
+    .ContextOverlay.ValidationContextOverlay {
+        background: rgba(0, 0, 0, 0.8);
+        color: #f1fa8c
+    }
+    .ContextOverlay.DisplayCellContextOverlay > .Content.Active {
+        background-color: #414a57;
+        color: #f1fa8c
+    }
+    .ContextOverlay.CurrencyTranslationContextOverlay > .Content.Active {
+        background-color: #414a57;
+        color: #f1fa8c
+    }
+    .IconPickerContextOverlay > .Content > .IconItemContainer > div > .IconItem.Selected {
+        background-color: #353949
+    }
+    .IconPickerContextOverlay > .Content > .IconItemContainer > div > .IconItem > .IconContainer > .IconBackground {
+        background-color: #282a36
+    }
+    .ContextOverlay.LabelHelpContextOverlay {
+        background-color: #414a57
+    }
+    .ContextOverlay.LabelHelpContextOverlay > .Content > .ParagraphContainer {
+        background-color: #414a57;
+        color: #f1fa8c
+    }
+    .ContextOverlay.TooltipContextOverlay > .Content.Active {
+        background-color: #414a57;
+        color: #f1fa8c
+    }
+    .ContextOverlayContainer > .ContextOverlay.TooltipContextOverlay .Container {
+        color: #f1fa8c
+    }
+    .ContextOverlay.TooltipContextOverlay > .Content .Container > .ReadOnlyDetailsContainer > .ReadOnlyData > .ReadOnlyLabelContainer > .LabelContainer1 > .Text > .PrimaryText {
+        color: #f1fa8c
+    }
+    .ContextOverlay.InlineIconContextOverlay > .Content {
+        color: #f1fa8c
+    }
+    .Dialog {
+        background-color: #282a36
+    }
+    .Dialog1 > .VerticalContainer > .Header,
+    .Dialog1 > .VerticalContainer > .Body,
+    .Dialog1 > .VerticalContainer > .Footer {
+        background-color: #282a36
+    }
+    .Dialog1 > .VerticalContainer > .Header > .TitleBar1 {
+        background-color: #282a36
+    }
+    .Dialog > div {
+        background-color: #282a36
+    }
+    .Dialog > div > .DialogContentContainer > .TitleBar > .Title > .Text,
+    .Dialog1 > .VerticalContainer > .Header > .TitleBar1 > .Title > .Text {
+        color: #f1fa8c
+    }
+    .Dialog > div > .DialogContentContainer > .TitleBar > .Title > .SecondaryText,
+    .Dialog1 > .VerticalContainer > .Header > .TitleBar1 > .Title > .SecondaryText {
+        color: #f1fa8c
+    }
+    .DialogTitleBarButton:hover {
+        background-color: #34424c
+    }
+    #AlertDialog.Dialog > div,
+    #ConfirmationDialog.Dialog > div {
+        background-color: #bd93f9
+    }
+    #AlertDialog.Dialog > div > .DialogContentContainer > .ScrollingContentContainer > .ScrollingContainer > .Section > .Content > .Column > .ContentContainer > .TextContainer > .StandardText,
+    #ConfirmationDialog.Dialog > div > .DialogContentContainer > .ScrollingContentContainer > .ScrollingContainer > .Section > .Content > .Column > .ContentContainer > .TextContainer > .StandardText {
+        color: #f1fa8c
+    }
+    #ProgressBarDialog .ProgressBarContainer {
+        background-color: #25293a
+    }
+    #ProgressBarDialog .ProgressBarContainer .ProgressBar {
+        background-color: #0fa96c
+    }
+    #DebugDialogBackgroundOverlay {
+        background-color: #1b1b1b
+    }
+    #DebugAjaxExceptionDialog {
+        color: #f1fa8c;
+        background-color: #282a36
+    }
+    .Dialog.Selection > div > .DialogContentContainer > .DialogHeadingContainer > .RecipientTypeSelectionContainer > div > .SelectionCount {
+        color: #f1fa8c
+    }
+    .Dialog.Selection.ChipSelection > div > .DialogContentContainer > .DynamicGridContainer > .ChipListContainer > .ChipListLabel {
+        color: #f1fa8c
+    }
+    .Dialog.PrintPreview > div > .DialogContentContainer > .ScrollingContentContainer > .ScrollingContainer > .PrintFriendlyFrame {
+        background-color: #fff
+    }
+    .Grid > .Header > table > tbody > .Filter {
+        background-color: #282a36
+    }
+    .Grid > .Body > .Scrolling > table > tbody > tr:nth-child(even) {
+        background-color: #1b1c24
+    }
+    .Grid > .Body > .Scrolling > table > tbody > tr:nth-child(odd) {
+        background-color: #282a36
+    }
+    .Grid > .Body > .TimeoutMessage,
+    .Grid > .Body > .NoDataMessage {
+        color: #ff5555
+    }
+    .Grid.AggregateValues > .Body > .Scrolling > table > tbody > tr:nth-child(even) {
+        background-color: #282a36
+    }
+    .Grid.AggregateValues > .Body > .Scrolling > table > tbody > tr:nth-child(odd) {
+        background-color: #bd93f9
+    }
+    .Grid > .Footer > .Pager {
+        background-color: #282a36
+    }
+    .Grid > .Footer > .Pager > .RowStatus > .VisibleRows {
+        color: #f1fa8c
+    }
+    .Grid > .Footer > .Pager > .RowStatus > .SelectedRows {
+        color: #b3bec3
+    }
+    .Grid > .Footer > .Pager > .PageStatus > .PageIndexStatus .PageIndex {
+        color: #ff79c6
+    }
+    .Grid > .Footer > .Pager > .PageStatus > .PageIndexStatus .PageIndex.Active,
+    .Grid > .Footer > .Pager > .PageStatus > .PageIndexStatus .PageIndex.Active:hover {
+        background-color: #ff79c6;
+        color: #000
+    }
+    .Grid > .Footer > .Pager > .PageStatus > .PageIndexStatus .PageIndex:hover {
+        background-color: #34424c
+    }
+    .Grid > .Footer > .Pager > .PageStatus > .PageSizeStatus {
+        color: #f1fa8c
+    }
+    .Grid > .Footer > .Pager > .PageStatus > .PageSizeStatus > select {
+        background-color: #282a36;
+        color: #f1fa8c
+    }
+    .Grid > .Footer > .AllRecordsNavigation {
+        color: #f1fa8c
+    }
+    .Grid > .Body > .Scrolling > .DragIndicator > .Bar {
+        background-color: #8be9fd
+    }
+    .Grid > .Body > .Scrolling > .DragStatus {
+        background-color: #282a36
+    }
+    tr.Heading > td.CheckBoxCell > div > div > .DropDownButton2.Active {
+        background: rgba(25, 158, 217, 0.3)
+    }
+    tr.Heading > td.TextCell > div > div.Label > .SecondaryText {
+        color: #f1fa8c
+    }
+    tr.Heading > td.TextCell > div > div.Label > .Required {
+        color: #ff5555
+    }
+    .Grid > .Header > table > tbody > tr.Filter > td {
+        background-color: #282a36
+    }
+    .Grid > .Header > table > tbody > tr.Filter > td.ScrollBarSpacer {
+        background-color: #282a36
+    }
+    .Scrolling > table > tbody > tr.Display > td {
+        color: #f1fa8c
+    }
+    tr.Display > td.Link,
+    tr.Display > td.Link > a,
+    .Scrolling > table > tbody > tr.Display > td.Link,
+    .Scrolling > table > tbody > tr.Display > td.Link > a {
+        color: #ff79c6
+    }
+    .Scrolling > table > tbody > tr.Display > td.CurrencyCell.OutOfBounds {
+        color: #fe7d77
+    }
+    .Scrolling > table > tbody > tr.Display > td.DateCell.Early {
+        color: #090
+    }
+    .Scrolling > table > tbody > tr.Display > td.DateCell.AlmostLate {
+        color: #ff9c37
+    }
+    .Scrolling > table > tbody > tr.Display > td.DateCell.Late {
+        color: #fe7d77
+    }
+    .Scrolling > table > tbody > tr.Display > td.DateTimeCell.Early {
+        color: #090
+    }
+    .Scrolling > table > tbody > tr.Display > td.DateTimeCell.AlmostLate {
+        color: #ff9c37
+    }
+    .Scrolling > table > tbody > tr.Display > td.DateTimeCell.Late {
+        color: #fe7d77
+    }
+    .Scrolling > table > tbody > tr.Display > td.DecimalCell.OutOfBounds {
+        color: #fe7d77
+    }
+    .Scrolling > table > tbody > tr.Display > td.HighlightedTextCell > span.Highlight {
+        background-color: #a28b14
+    }
+    .Scrolling > table > tbody > tr.Display > td.IntegerCell.OutOfBounds {
+        color: #fe7d77
+    }
+    .Scrolling > table > tbody > tr.Display > td.MesssageBarIconCell > .IconContainer > .IconBackground {
+        background-color: #282a36
+    }
+    .Scrolling > table > tbody > tr.Display > td.NestingCell > div > div.Value > .Link {
+        color: #ff79c6
+    }
+    .Scrolling > table > tbody > tr.Display > td.OrderedSelectionCell,
+    .Scrolling > table > tbody > tr.Display.NestingPoint > td.OrderedSelectionCell {
+        background-color: #34424c;
+        color: #f1fa8c
+    }
+    .Scrolling > table > tbody > tr.Display > td.ThermometerRatingCell > div.Happy,
+    .Scrolling > table > tbody > tr.Display > td.ThermometerTemperatureCell > div.Happy {
+        color: #58c990
+    }
+    .Scrolling > table > tbody > tr.Display > td.ThermometerRatingCell > div.Unhappy,
+    .Scrolling > table > tbody > tr.Display > td.ThermometerTemperatureCell > div.Unhappy {
+        color: #f3523e
+    }
+    .Scrolling > table > tbody > tr.Display > td.TimeCell.Early {
+        color: #090
+    }
+    .Scrolling > table > tbody > tr.Display > td.TimeCell.AlmostLate {
+        color: #ff9c37
+    }
+    .Scrolling > table > tbody > tr.Display > td.TimeCell.Late {
+        color: #fe7d77
+    }
+    .Scrolling > table > tbody > tr.Display > td.WarningTextCell {
+        color: #fe7d77
+    }
+    .Scrolling > table > tbody > tr.Display.Selected > td {
+        background-color: #001d28
+    }
+    .Scrolling > table > tbody > tr.Display.Selected > td.OrderedSelectionCell,
+    .Scrolling > table > tbody > tr.Display.NestingPoint.Selected > td.OrderedSelectionCell,
+    .Scrolling > table > tbody > tr.Display.Summary.Selected > td.OrderedSelectionCell {
+        background-color: #70cdf5
+    }
+    .Scrolling > table > tbody > tr.Display.SelectedPreview > td,
+    .Scrolling > table > tbody > tr.Display.SelectedPreview > td.OrderedSelectionCell,
+    .Scrolling > table > tbody > tr.Display.NestingPoint.SelectedPreview > td.OrderedSelectionCell,
+    .Scrolling > table > tbody > tr.Display.Summary.SelectedPreview > td.OrderedSelectionCell {
+        background-color: #353c62
+    }
+    .Scrolling > table > tbody > tr.Display.Summary > td {
+        background-color: #25293a
+    }
+    .Scrolling > table > tbody > tr.Display.Summary.Selected > td {
+        background-color: #474b59
+    }
+    .Scrolling > table > tbody > tr.Display.NestingPoint > td {
+        background-color: #34424c
+    }
+    .Scrolling > table > tbody > tr.Display.NestingPoint.Selected > td {
+        background-color: #474b59
+    }
+    .Scrolling > table > tbody > tr.Display.NestingPoint.SelectedPreview > td {
+        background-color: #2e3242
+    }
+    .Grid > .Body > .Scrolling > table > tbody > tr.Edit > td.ButtonAndTextCell > div > a.Button.IconOnly.HoverState,
+    .Grid > .Body > .Scrolling > table > tbody > tr.Edit > td.ButtonAndTextBoxCell > div > a.Button.IconOnly.HoverState {
+        background: none
+    }
+    .Grid > .Body > .Scrolling > table > tbody > tr.Edit > td > .Required {
+        color: #fe7d77
+    }
+    .Grid > .Body > .Scrolling > table > tbody > tr.CustomValidationResultRow > td {
+        color: #fe7d77
+    }
+    .Grid > .Body > .Scrolling > table > tbody > tr.ValidationResultRow > td > .Error {
+        background-color: #3e4251;
+        color: #fe7d77
+    }
+    .Grid > .Body > .Scrolling > table > tbody > tr.Edit > td,
+    .Grid > .Body > .Scrolling > table > tbody > tr.ValidationResultRow > td,
+    .Grid > .Body > .Scrolling > table > tbody > tr.CustomValidationResultRow > td,
+    .Grid > .Body > .Scrolling > table > tbody > tr.EditingButtonRow > td {
+        background-color: #bd93f9
+    }
+    .ThermometerRatingPartCell > .Happy,
+    .ThermometerTemperaturePartCell > .Happy {
+        color: #58c990
+    }
+    .ThermometerRatingPartCell > .Unhappy,
+    .ThermometerTemperaturePartCell > .Unhappy {
+        color: #f3523e
+    }
+    .GridLabel > .Text {
+        color: #f1fa8c
+    }
+    .GridLabel > .SecondaryText {
+        color: #f1fa8c
+    }
+    .TextWithRadioButtonStyling > div.Label {
+        color: #f1fa8c
+    }
+    .CheckBoxGroupLabel .Label,
+    .RadioButtonGroupLabel .Label {
+        color: #f1fa8c
+    }
+    .CheckBoxGroupLabel .SecondaryText,
+    .RadioButtonGroupLabel .SecondaryText {
+        color: #f1fa8c
+    }
+    .CheckBoxGroupContainer .Description,
+    .RadioButtonGroupContainer .Description {
+        color: #f1fa8c
+    }
+    .VariableInsertion div.VariableUsageInstructions {
+        color: #f1fa8c
+    }
+    .Editor.HtmlEditor .HtmlContent .ButtonContainer .HtmlEditorButtonGroup a.Button.SelectedState {
+        background: #25293a
+    }
+    .Editor.HtmlEditor .HtmlContent .ButtonContainer .HtmlEditorButtonGroup a.Button.HoverState,
+    .Editor.HtmlEditor .HtmlContent .ButtonContainer .DropDownButtonContainer a.Button.HoverState:first-child {
+        background-color: #3872b2
+    }
+    .HtmlEditor .HtmlEditorModeContainer {
+        background-color: #282a36
+    }
+    .HtmlEditor .HtmlEditorModeContainer .HtmlEditorModeButton {
+        background: #25293a
+    }
+    .HtmlEditor .HtmlEditorModeContainer .HtmlEditorModeButton.Active {
+        background-color: #282a36
+    }
+    .Column > .ReadOnlyData > .ReadOnlyValueContainer > .Value {
+        color: #f1fa8c
+    }
+    .Column > .ReadOnlyData > .ReadOnlyValueContainer > .Value.Overdue {
+        color: #ff5555
+    }
+    .Section .Column > .ReadOnlyData > .ReadOnlyValueContainer > .Value.Color.Green {
+        color: #2aa85f
+    }
+    .Section .Column > .ReadOnlyData > .ReadOnlyValueContainer > .Value.Color.Red {
+        color: #e6455a
+    }
+    .BulletedList > tbody > tr > .ListBulletCell > .ListBullet {
+        background-color: #f1fa8c
+    }
+    .BulletedList > tbody > tr > td > .Important,
+    .NumberedList > tbody > tr > td > .Important {
+        color: #65b0ee
+    }
+    .TitleBar1 > .Title {
+        color: #f1fa8c
+    }
+    .TitleBar {
+        background-color: #282a36
+    }
+    .EntityPage .TitleBar {
+        background-color: #44475a
+    }
+    .TitleBar > .TitleBarItem.Title {
+        color: #f1fa8c
+    }
+    .EntityPage .TitleBar > .TitleBarItem.Title {
+        color: #f1fa8c
+    }
+    .TitleBar > .TitleBarToolbar > .Text {
+        color: #f1fa8c
+    }
+    .EntityPage .TitleBar > .TitleBarToolbar > .Text {
+        color: #f1fa8c
+    }
+    .Dialog > div > .DialogContentContainer > .TitleBar {
+        background-color: #282a36
+    }
+    .ToolBar > .ToolBarItem > .ApprovalStatus.Approved {
+        color: #2aa85f
+    }
+    .ToolBar > .ToolBarItem > .ApprovalStatus.Assigned,
+    .ToolBar > .ToolBarItem > .ApprovalStatus.Requested {
+        color: #f1fa8c
+    }
+    .ToolBar > .ToolBarItem > .ApprovalStatus.NotAssigned {
+        color: #8696b5
+    }
+    .ToolBar > .ToolBarItem > .ApprovalStatus.PartiallyApproved {
+        color: #f6a944
+    }
+    .ToolBar > .ToolBarItem > .ApprovalStatus.Rejected {
+        color: #e6455a
+    }
+    .ToolBar > .ToolBarItem.Text > .Text {
+        color: #f1fa8c
+    }
+    .ToolBar > .ToolBarItem.Help > .Text {
+        color: #81949b
+    }
+    .Instructions {
+        color: #f1fa8c
+    }
+    .Instructions a.Link {
+        color: #ff79c6
+    }
+    .StandardText.LowImportance {
+        color: #f1fa8c
+    }
+    .HotspotImageContainer > .HotspotImage > .Hotspot > .TabLabel {
+        background: rgba(0, 0, 0, 0.3);
+        color: #f1fa8c
+    }
+    .HotspotImageContainer > .HotspotImage > .Hotspot > .Content {
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1fa8c
+    }
+    .ImageHotspotContainer .Image .ImageHotspot .SimpleLabel {
+        background: rgba(0, 0, 0, 0.3);
+        color: #f1fa8c
+    }
+    .ImageHotspotContainer .Image .ImageHotspot .CompleteLabel {
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1fa8c
+    }
+    .StopwatchContainer > .StopwatchTime {
+        background-color: #282a36;
+        color: #ff79c6
+    }
+    .StopwatchContainer {
+        background-color: #282a36;
+        border: 2px solid #bd93f9;
+    }
+    .ProgressBar > .ProgressBarContent > .Bar > .Progress {
+        background-color: #65b0ee
+    }
+    .ProgressBar > .ProgressBarContent > .Bar > .Progress.Opportunistic {
+        background-color: #7be1a0
+    }
+    .ProgressBar > .ProgressBarContent > .Bar > .Progress.Warning {
+        background-color: #fac446
+    }
+    .ProgressBar > .ProgressBarContent > .Bar > .Progress.Critical {
+        background-color: #e6455a
+    }
+    .NotificationPanel > .Content {
+        background-color: #282a36
+    }
+    .NotificationPanel > .Content .LinkButton2 {
+        color: #65b0ee
+    }
+    .NotificationSlideOut > .HandleBar > .HandleContainer > .Handle {
+        background-color: #282a36
+    }
+    .NotificationSlideOut > .HandleBar > .HandleContainer > .Handle > .Text {
+        color: #f1fa8c
+    }
+    .NotificationSlideOut > .HandleBar > .HandleContainer > .Handle > .Badge {
+        background-color: #8696b5;
+        color: #f1fa8c
+    }
+    .NotificationSlideOut > .HandleBar > .HandleContainer > .Handle > .Badge.HasRecipients {
+        background-color: #d87018
+    }
+    .MessageBar .LinkButton2 {
+        color: #65b0ee
+    }
+    .MessageBar > .Content.Expandable > .ShowMoreLessButton {
+        color: #65b0ee
+    }
+    .MessageBar.MessageBarError > .Content {
+        background-color: #5c0d10;
+        color: #f1fa8c
+    }
+    .MessageBar.MessageBarError > .IconContainer {
+        background-color: #5c0d10
+    }
+    .MessageBar.MessageBarWarning > .Content {
+        background-color: #7f5a00;
+        color: #f1fa8c
+    }
+    .MessageBar.MessageBarWarning > .IconContainer {
+        background-color: #7f5a00
+    }
+    .MessageBar.MessageBarPositive > .Content {
+        background-color: #0c4027;
+        color: #f1fa8c
+    }
+    .MessageBar.MessageBarPositive > .IconContainer {
+        background-color: #0c4027
+    }
+    .MessageBar.MessageBarInformational > .Content {
+        background-color: #093151;
+        color: #f1fa8c
+    }
+    .MessageBar.MessageBarInformational > .IconContainer {
+        background-color: #093151
+    }
+    .MessageBar.MessageBarMiscellaneous > .Content {
+        background-color: #232379;
+        color: #f1fa8c
+    }
+    .MessageBar.MessageBarMiscellaneous > .IconContainer {
+        background-color: #232379
+    }
+    .MessageBar.MessageBarSystem > .Content {
+        background-color: #485257;
+        color: #f1fa8c
+    }
+    .MessageBar.MessageBarSystem > .IconContainer {
+        background-color: #485257
+    }
+    .MessageBar.MessageBarDraft > .Content {
+        background-color: #662703;
+        color: #f1fa8c
+    }
+    .MessageBar.MessageBarDraft > .IconContainer {
+        background-color: #662703
+    }
+    .Scrolling > .Display:hover > .Scrolling > .Display.Selected:hover {
+        background-color: #6272a4;
+        border-color: #bd93f9
+    }
+    .NotificationPage > .PageContentContainer > .ScrollingContentContainer > .ScrollingContainer > .NotificationPanel > .Content {
+        background-color: #282a36
+    }
+    .NotificationPage > .PageContentContainer > .ScrollingContentContainer > .ScrollingContainer > .NotificationPanel > .Content > .RecipientEditors > .RecipientSelector > .ContentContainer > .BubbleList {
+        background-color: #2c3444
+    }
+    .VerticalContainer {
+        background-color: #1b1c24
+    }
+    .PrintPreview > .PageContentContainer > .ScrollingContentContainer > .ScrollingContainer > .PrintFriendlyFrame {
+        background-color: #fff
+    }
+    .EditingRow .Decoration.Icon.DragHandle {
+        background: none
+    }
+    .Color1.ColorSample,
+    .Color1 .ColorSample,
+    .ColorSwatch.Color1.ColorSample,
+    .ColorSwatch.Color1 .ColorSample {
+        background-color: #f66
+    }
+    .Color1.ColorText,
+    .ColorSwatch.Color1.ColorText {
+        color: #f66
+    }
+    .Color2.ColorSample,
+    .Color2 .ColorSample,
+    .ColorSwatch.Color2.ColorSample,
+    .ColorSwatch.Color2 .ColorSample {
+        background-color: #ff855d
+    }
+    .Color2.ColorText,
+    .ColorSwatch.Color2.ColorText {
+        color: #ff855d
+    }
+    .Color3.ColorSample,
+    .Color3 .ColorSample,
+    .ColorSwatch.Color3.ColorSample,
+    .ColorSwatch.Color3 .ColorSample {
+        background-color: #ff9c37
+    }
+    .Color3.ColorText,
+    .ColorSwatch.Color3.ColorText {
+        color: #ff9c37
+    }
+    .Color4.ColorSample,
+    .Color4 .ColorSample,
+    .ColorSwatch.Color4.ColorSample,
+    .ColorSwatch.Color4 .ColorSample {
+        background-color: #f4b900
+    }
+    .Color4.ColorText,
+    .ColorSwatch.Color4.ColorText {
+        color: #f4b900
+    }
+    .Color5.ColorSample,
+    .Color5 .ColorSample,
+    .ColorSwatch.Color5.ColorSample,
+    .ColorSwatch.Color5 .ColorSample {
+        background-color: #90d36d
+    }
+    .Color5.ColorText,
+    .ColorSwatch.Color5.ColorText {
+        color: #90d36d
+    }
+    .Color6.ColorSample,
+    .Color6 .ColorSample,
+    .ColorSwatch.Color6.ColorSample,
+    .ColorSwatch.Color6 .ColorSample {
+        background-color: #47d97d
+    }
+    .Color6.ColorText,
+    .ColorSwatch.Color6.ColorText {
+        color: #47d97d
+    }
+    .Color7.ColorSample,
+    .Color7 .ColorSample,
+    .ColorSwatch.Color7.ColorSample,
+    .ColorSwatch.Color7 .ColorSample {
+        background-color: #72cfba
+    }
+    .Color7.ColorText,
+    .ColorSwatch.Color7.ColorText {
+        color: #72cfba
+    }
+    .Color8.ColorSample,
+    .Color8 .ColorSample,
+    .ColorSwatch.Color8.ColorSample,
+    .ColorSwatch.Color8 .ColorSample {
+        background-color: #96abac
+    }
+    .Color8.ColorText,
+    .ColorSwatch.Color8.ColorText {
+        color: #96abac
+    }
+    .Color9.ColorSample,
+    .Color9 .ColorSample,
+    .ColorSwatch.Color9.ColorSample,
+    .ColorSwatch.Color9 .ColorSample {
+        background-color: #df1f3b
+    }
+    .Color9.ColorText,
+    .ColorSwatch.Color9.ColorText {
+        color: #df1f3b
+    }
+    .Color10.ColorSample,
+    .Color10 .ColorSample,
+    .ColorSwatch.Color10.ColorSample,
+    .ColorSwatch.Color10 .ColorSample {
+        background-color: #f9602e
+    }
+    .Color10.ColorText,
+    .ColorSwatch.Color10.ColorText {
+        color: #f9602e
+    }
+    .Color11.ColorSample,
+    .Color11 .ColorSample,
+    .ColorSwatch.Color11.ColorSample,
+    .ColorSwatch.Color11 .ColorSample {
+        background-color: #b68257
+    }
+    .Color11.ColorText,
+    .ColorSwatch.Color11.ColorText {
+        color: #b68257
+    }
+    .Color12.ColorSample,
+    .Color12 .ColorSample,
+    .ColorSwatch.Color12.ColorSample,
+    .ColorSwatch.Color12 .ColorSample {
+        background-color: #b6a069
+    }
+    .Color12.ColorText,
+    .ColorSwatch.Color12.ColorText {
+        color: #b6a069
+    }
+    .Color13.ColorSample,
+    .Color13 .ColorSample,
+    .ColorSwatch.Color13.ColorSample,
+    .ColorSwatch.Color13 .ColorSample {
+        background-color: #0cc433
+    }
+    .Color13.ColorText,
+    .ColorSwatch.Color13.ColorText {
+        color: #0cc433
+    }
+    .Color14.ColorSample,
+    .Color14 .ColorSample,
+    .ColorSwatch.Color14.ColorSample,
+    .ColorSwatch.Color14 .ColorSample {
+        background-color: #42a567
+    }
+    .Color14.ColorText,
+    .ColorSwatch.Color14.ColorText {
+        color: #42a567
+    }
+    .Color15.ColorSample,
+    .Color15 .ColorSample,
+    .ColorSwatch.Color15.ColorSample,
+    .ColorSwatch.Color15 .ColorSample {
+        background-color: #12af8b
+    }
+    .Color15.ColorText,
+    .ColorSwatch.Color15.ColorText {
+        color: #12af8b
+    }
+    .Color16.ColorSample,
+    .Color16 .ColorSample,
+    .ColorSwatch.Color16.ColorSample,
+    .ColorSwatch.Color16 .ColorSample {
+        background-color: #748f90
+    }
+    .Color16.ColorText,
+    .ColorSwatch.Color16.ColorText {
+        color: #748f90
+    }
+    .Color17.ColorSample,
+    .Color17 .ColorSample,
+    .ColorSwatch.Color17.ColorSample,
+    .ColorSwatch.Color17 .ColorSample {
+        background-color: #63cdd4
+    }
+    .Color17.ColorText,
+    .ColorSwatch.Color17.ColorText {
+        color: #63cdd4
+    }
+    .Color18.ColorSample,
+    .Color18 .ColorSample,
+    .ColorSwatch.Color18.ColorSample,
+    .ColorSwatch.Color18 .ColorSample {
+        background-color: #5ec3ed
+    }
+    .Color18.ColorText,
+    .ColorSwatch.Color18.ColorText {
+        color: #5ec3ed
+    }
+    .Color19.ColorSample,
+    .Color19 .ColorSample,
+    .ColorSwatch.Color19.ColorSample,
+    .ColorSwatch.Color19 .ColorSample {
+        background-color: #558fcc
+    }
+    .Color19.ColorText,
+    .ColorSwatch.Color19.ColorText {
+        color: #558fcc
+    }
+    .Color20.ColorSample,
+    .Color20 .ColorSample,
+    .ColorSwatch.Color20.ColorSample,
+    .ColorSwatch.Color20 .ColorSample {
+        background-color: #96b2ce
+    }
+    .Color20.ColorText,
+    .ColorSwatch.Color20.ColorText {
+        color: #96b2ce
+    }
+    .Color21.ColorSample,
+    .Color21 .ColorSample,
+    .ColorSwatch.Color21.ColorSample,
+    .ColorSwatch.Color21 .ColorSample {
+        background-color: #888ceb
+    }
+    .Color21.ColorText,
+    .ColorSwatch.Color21.ColorText {
+        color: #888ceb
+    }
+    .Color22.ColorSample,
+    .Color22 .ColorSample,
+    .ColorSwatch.Color22.ColorSample,
+    .ColorSwatch.Color22 .ColorSample {
+        background-color: #c583e3
+    }
+    .Color22.ColorText,
+    .ColorSwatch.Color22.ColorText {
+        color: #c583e3
+    }
+    .Color23.ColorSample,
+    .Color23 .ColorSample,
+    .ColorSwatch.Color23.ColorSample,
+    .ColorSwatch.Color23 .ColorSample {
+        background-color: #ee7ed3
+    }
+    .Color23.ColorText,
+    .ColorSwatch.Color23.ColorText {
+        color: #ee7ed3
+    }
+    .Color24.ColorSample,
+    .Color24 .ColorSample,
+    .ColorSwatch.Color24.ColorSample,
+    .ColorSwatch.Color24 .ColorSample {
+        background-color: #f67ca8
+    }
+    .Color24.ColorText,
+    .ColorSwatch.Color24.ColorText {
+        color: #f67ca8
+    }
+    .Color25.ColorSample,
+    .Color25 .ColorSample,
+    .ColorSwatch.Color25.ColorSample,
+    .ColorSwatch.Color25 .ColorSample {
+        background-color: #24a8b0
+    }
+    .Color25.ColorText,
+    .ColorSwatch.Color25.ColorText {
+        color: #24a8b0
+    }
+    .Color26.ColorSample,
+    .Color26 .ColorSample,
+    .ColorSwatch.Color26.ColorSample,
+    .ColorSwatch.Color26 .ColorSample {
+        background-color: #2297ed
+    }
+    .Color26.ColorText,
+    .ColorSwatch.Color26.ColorText {
+        color: #2297ed
+    }
+    .Color27.ColorSample,
+    .Color27 .ColorSample,
+    .ColorSwatch.Color27.ColorSample,
+    .ColorSwatch.Color27 .ColorSample {
+        background-color: #3e6ca4
+    }
+    .Color27.ColorText,
+    .ColorSwatch.Color27.ColorText {
+        color: #3e6ca4
+    }
+    .Color28.ColorSample,
+    .Color28 .ColorSample,
+    .ColorSwatch.Color28.ColorSample,
+    .ColorSwatch.Color28 .ColorSample {
+        background-color: #607b98
+    }
+    .Color28.ColorText,
+    .ColorSwatch.Color28.ColorText {
+        color: #607b98
+    }
+    .Color29.ColorSample,
+    .Color29 .ColorSample,
+    .ColorSwatch.Color29.ColorSample,
+    .ColorSwatch.Color29 .ColorSample {
+        background-color: #5659b3
+    }
+    .Color29.ColorText,
+    .ColorSwatch.Color29.ColorText {
+        color: #5659b3
+    }
+    .Color30.ColorSample,
+    .Color30 .ColorSample,
+    .ColorSwatch.Color30.ColorSample,
+    .ColorSwatch.Color30 .ColorSample {
+        background-color: #9a5ab8
+    }
+    .Color30.ColorText,
+    .ColorSwatch.Color30.ColorText {
+        color: #9a5ab8
+    }
+    .Color31.ColorSample,
+    .Color31 .ColorSample,
+    .ColorSwatch.Color31.ColorSample,
+    .ColorSwatch.Color31 .ColorSample {
+        background-color: #d265b3
+    }
+    .Color31.ColorText,
+    .ColorSwatch.Color31.ColorText {
+        color: #d265b3
+    }
+    .Color32.ColorSample,
+    .Color32 .ColorSample,
+    .ColorSwatch.Color32.ColorSample,
+    .ColorSwatch.Color32 .ColorSample {
+        background-color: #d54f7e
+    }
+    .Color32.ColorText,
+    .ColorSwatch.Color32.ColorText {
+        color: #d54f7e
+    }
+    .Color33.ColorSample,
+    .Color33 .ColorSample,
+    .ColorSwatch.Color33.ColorSample,
+    .ColorSwatch.Color33 .ColorSample {
+        background-color: #f1fa8c
+    }
+    .Color33.ColorText,
+    .ColorSwatch.Color33.ColorText {
+        color: #f1fa8c
+    }
+    .Color34.ColorSample,
+    .Color34 .ColorSample,
+    .ColorSwatch.Color34.ColorSample,
+    .ColorSwatch.Color34 .ColorSample {
+        background-color: #666
+    }
+    .Color34.ColorText,
+    .ColorSwatch.Color34.ColorText {
+        color: #666
+    }
+    .Color35.ColorSample,
+    .Color35 .ColorSample,
+    .ColorSwatch.Color35.ColorSample,
+    .ColorSwatch.Color35 .ColorSample {
+        background-color: #f99
+    }
+    .Color35.ColorText,
+    .ColorSwatch.Color35.ColorText {
+        color: #f99
+    }
+    .Color36.ColorSample,
+    .Color36 .ColorSample,
+    .ColorSwatch.Color36.ColorSample,
+    .ColorSwatch.Color36 .ColorSample {
+        background-color: #ffe069
+    }
+    .Color36.ColorText,
+    .ColorSwatch.Color36.ColorText {
+        color: #ffe069
+    }
+    .Color37.ColorSample,
+    .Color37 .ColorSample,
+    .ColorSwatch.Color37.ColorSample,
+    .ColorSwatch.Color37 .ColorSample {
+        background-color: #7be09d
+    }
+    .Color37.ColorText,
+    .ColorSwatch.Color37.ColorText {
+        color: #7be09d
+    }
+    .Color38.ColorSample,
+    .Color38 .ColorSample,
+    .ColorSwatch.Color38.ColorSample,
+    .ColorSwatch.Color38 .ColorSample {
+        background-color: #73bffa
+    }
+    .Color38.ColorText,
+    .ColorSwatch.Color38.ColorText {
+        color: #73bffa
+    }
+    .Color39.ColorSample,
+    .Color39 .ColorSample,
+    .ColorSwatch.Color39.ColorSample,
+    .ColorSwatch.Color39 .ColorSample {
+        background-color: #b1aaf2
+    }
+    .Color39.ColorText,
+    .ColorSwatch.Color39.ColorText {
+        color: #b1aaf2
+    }
+    .Color40.ColorSample,
+    .Color40 .ColorSample,
+    .ColorSwatch.Color40.ColorSample,
+    .ColorSwatch.Color40 .ColorSample {
+        background-color: #ccc
+    }
+    .Color40.ColorText,
+    .ColorSwatch.Color40.ColorText {
+        color: #ccc
+    }
+    .Color41.ColorSample,
+    .Color41 .ColorSample,
+    .ColorSwatch.Color41.ColorSample,
+    .ColorSwatch.Color41 .ColorSample {
+        background-color: #ffbd81
+    }
+    .Color41.ColorText,
+    .ColorSwatch.Color41.ColorText {
+        color: #ffbd81
+    }
+    .DialogTitleBarIcon:hover {
+        background-color: #34424c
+    }
+    .LabelContainer1 > .Required {
+        color: #ff5555
+    }
+    .LabelContainer1 > .Text > .PrimaryText {
+        color: #f1fa8c
+    }
+    .LabelContainer1 > .Text > .SecondaryText {
+        color: #f1fa8c
+    }
+    .ExternalFileBoxLabelContainer,
+    .Column > .ReadOnlyData > .ReadOnlyLabelContainer {
+        color: #f1fa8c
+    }
+    .ReadOnlyDataColumn > .ReadOnlyData > .ReadOnlyLabelContainer {
+        color: #dee0e7
+    }
+    .ValidationSummary > .CustomValidation {
+        background-color: #6e1417;
+        color: #ffd7d7
+    }
+    .ValidationSummary > .FormValidation {
+        background-color: #4e0f11;
+        color: #f1fa8c
+    }
+    .Required {
+        color: #ff5555
+    }
+    .CalendarContainer .Calendar .CalendarNavigation .Text {
+        color: #f1fa8c
+    }
+    .CalendarContainer > .Calendar {
+        color: #f1fa8c
+    }
+    .CalendarContainer > .Calendar {
+        color: #f1fa8c
+    }
+    .CalendarContainer > .Calendar > .Important > .CalendarContainer > .Calendar > .Important:hover {
+        background: #70cdf5;
+        color: #fff
+    }
+    .CalendarContainer > .Calendar {
+        background: #455571
+    }
+    .ContextOverlay > .CalendarContainer > .LoadingIndicator {
+        background-color: #282a36
+    }
+    .Month > .MonthHeader > .Text {
+        color: #f1fa8c
+    }
+    .Month > .MonthBody {
+        color: #f1fa8c
+    }
+    .Month > .MonthBody > .ImportanceTypeDefault {
+        background: #70cdf5;
+        color: #fff
+    }
+    .OffsetLink {
+        color: #ff79c6
+    }
+    .OffsetLink:hover {
+        background: #455571
+    }
+    .ParagraphContainer > .Paragraph > span.Color.Gray {
+        color: #f1fa8c
+    }
+    .ParagraphContainer > .Paragraph > span.Color.Red {
+        color: #ff5555
+    }
+    .Checklist {
+        color: #f1fa8c
+    }
+    .Checklist > .ChecklistItem.Completed > .Description > .CompletedBy {
+        color: #acb8cb
+    }
+    .Checklist > .ChecklistItem > .Description > .Important {
+        color: #65b0ee
+    }
+    .Checklist > .ChecklistItem.Completed > .Description > .Important {
+        color: #acb8cb
+    }
+    .Checklist > .ChecklistItem > .Description > .AssociatedPage > div > .LinkButton2 {
+        color: #65b0ee
+    }
+    .Checklist > .ChecklistItem.Completed > .Description > .AssociatedPage > div > .LinkButton2 {
+        color: #65b0ee
+    }
+    .EntityHeadingContainer > .Content {
+        background-color: #282a36
+    }
+    .EntityHeadingContainer > .Content > .Title > .Text {
+        color: #bd93f9;
+        font-weight: bold;
+        font-size: 25px
+    }
+    .EntityHeadingContainer > .Content .LinkButton > .LinkButtonWrapper2 > .LinkButton2 {
+        color: #65b0ee
+    }
+    .EntityHeadingContainer > .Content > .Bundle > div > .Text,
+    .EntityHeadingContainer > .Content > .ReplaceableHeadingContainer > .Bundle > div > .Text {
+        color: #f1fa8c
+    }
+    .ImageViewerHeader > .Details > .IdentificationTextContainer > .IdentificationText {
+        color: #dee0e7
+    }
+    .Button2 {
+        color: #f1fa8c
+    }
+    .SuggestiveBackground {
+        background: #0077c7;
+        color: #f6f7f8
+    }
+    .Button2.WarningBackground,
+    .Button2.WarningBackground.Disabled2:hover {
+        background: #9a1015;
+        color: #f1fa8c
+    }
+    .Button2.WarningBackground:hover {
+        background: #c00
+    }
+    .DropDownButton2.Active > .Button2:last-child {
+        background: #282a36
+    }
+    .DropDownButton2.Combined.Active > .Button2:first-child {
+        background: #282a36
+    }
+    .EditorButton2.Selected2 {
+        background: rgba(25, 158, 217, 0.3)
+    }
+    .EditorButton2.Active {
+        background: #282a36
+    }
+    .LinkButton2 {
+        color: #ff79c6
+    }
+    .MenuButton1 > .Text1 {
+        color: #f1fa8c
+    }
+    .MenuButton1.DisabledState > .Text1 {
+        color: #4e6973
+    }
+    .SuggestiveBackground {
+        background: #376a94
+    }
+    .Button2.SuggestiveBackground:hover {
+        background: #2c5576;
+        color: #fff
+    }
+    .Button2.SuggestiveBackground.Disabled2,
+    .Button2.SuggestiveBackground.Disabled2:hover {
+        background: #376a94;
+        color: #f6f7f8
+    }
+    .Button2.IconOnly2:not(.Button2+.Button2.IconOnly2, .EditorButton2.IconOnly2, .Button+.Button2.IconOnly2, .FilterButtonPair .Button2):hover {
+        background: rgba(25, 158, 217, 0.3)
+    }
+    .ToolBar.ToolBarItem > div > .Button2.Disabled2 {
+        background: #44475a
+    }
+    .ToolBar > .ToolBarItem > div > .Button2.Disabled2:hover {
+        background: #44475a
+    }
+    .ToolBar > .ToolBarItem > div > .DropDownButton2 > .Button2.Disabled2 {
+        background: #44475a
+    }
+    .ToolBar > .ToolBarItem > div > .DropDownButton2 > .Button2.Disabled2:hover {
+        background: #44475a
+    }
+    .TitleBarContextMenuButton1.Active {
+        background-color: #282a36
+    }
+    .TitleBarContextMenuButton1 > .HorizontalLine {
+        background-color: #8be9fd
+    }
+    .TitleBarContextMenuButton1.Active > .HorizontalLine {
+        background-color: #8be9fd
+    }
+    body.DashboardPage1 .TitleBarContextMenuButton1 > .HorizontalLine {
+        background-color: #8be9fd
+    }
+    .Dialog1.SimpleEntityDialog > .VerticalContainer > .Body > .PrimaryContent > .Divider > .Line,
+    .Dialog1.SimpleEntityDialog > .VerticalContainer > .Body > .PrimaryContent > .BodyContainer > .Divider > .Line {
+        background-color: #474b59
+    }
+    .AdjustingTextBox2 > .TextAreaContainer > textarea,
+    .AdjustingTextBox2 > .ContentMirror {
+        color: #f1fa8c
+    }
+    .BngInformationCollectionComponent > .BngFieldRow > .BngFieldContainer > .FieldHost {
+        background-color: #bd93f9
+    }
+    .Checkbox2 > .Checked {
+        background-color: #ff79c6
+    }
+    .Checkbox2 > .Unchecked {
+        background-color: #bd93f9
+    }
+    .Checkbox2 > .Checked.Disabled {
+        background-color: #4e6973
+    }
+    .ChipList > .Chip {
+        background-color: #355460;
+        color: #f1fa8c
+    }
+    .ChipList > .Chip.Selected {
+        background-color: #4e6973
+    }
+    .ChipList.Disabled {
+        background-color: #2b2f40
+    }
+    .MultipleItemSelector > .ChipList.MultipleDataSelection,
+    .MultipleDataSelector2 > .ChipList.MultipleDataSelection {
+        background-color: #bd93f9
+    }
+    .MultipleDataSelector2.Disabled > .ChipList.MultipleDataSelection {
+        background-color: #34424c
+    }
+    .ChipList.SingleDataSelection {
+        background-color: #282a36
+    }
+    .ChipList.SingleDataSelection.Focused > .Chip {
+        background-color: #4e6973
+    }
+    .ExternalFileBox2 > .ContentContainer {
+        background-color: #bd93f9
+    }
+    .ExternalFileBox2 > .ContentContainer > .ValueContainer > .Item > .Text {
+        color: #f1fa8c
+    }
+    .Item[data-is-targeted=true] {
+        background-color: #282a36
+    }
+    .Item[data-is-selected=true] {
+        background-color: #001d28
+    }
+    .Item > div.Text {
+        color: #f8f9fb
+    }
+    .Item[data-is-selected=true] > div.Text {
+        color: #f8f9fb
+    }
+    .Item > div.Text > mark,
+    .Item > div.Text > span > mark {
+        color: #65b0ee
+    }
+    .RecipientIcon.Internal {
+        background-color: #0fa96c
+    }
+    .RecipientIcon.External {
+        background-color: #a374e6
+    }
+    .RecipientIcon.EmailAddress {
+        background-color: #b0c3da
+    }
+    .ItemList > .GroupHeader {
+        background-color: #282a36;
+        color: #f1fa8c
+    }
+    .ItemList > .GroupHeader.NoItems > .NoItemsText {
+        color: #f8f9fb
+    }
+    .SingleItemSelector2 > .ContentContainer {
+        background-color: #282a36
+    }
+    .SingleItemSelector2 > .ContentContainer > .ValueContainer > .TargetPreview {
+        color: #f1fa8c
+    }
+    .SingleItemSelector2 > .ContentContainer > .ValueContainer > .SelectionDisplay {
+        background-color: #282a36
+    }
+    .SingleItemSelector2 > .ContentContainer > .ValueContainer > .SelectionDisplay > .Item > .Text {
+        color: #f1fa8c
+    }
+    .SingleItemSelector2.Disabled > .ContentContainer > .ValueContainer > .SelectionDisplay {
+        background-color: #34424c
+    }
+    .SingleItemSelector2.Disabled > .ContentContainer > .ValueContainer > .SelectionDisplay > .Item > .Text {
+        color: #4e6973
+    }
+    .HexColorBox2.Disabled {
+        background-color: #34424c
+    }
+    .TagChipList > .Chip.DefaultColor {
+        background-color: #f8f9fb
+    }
+    .TagChipList > .Chip > .InnerChip {
+        background-color: #fff
+    }
+    .TagChipList > .Chip > .Text,
+    .TagChipList.Compact > .ExcludedCount {
+        color: #404040
+    }
+    .LargeMultipleTagSelector > .ContextOverlayContainer > .LargeMultipleTagSelectorOverlay > .Content > .TagItemSet > .TagItemList > .TagItem[data-is-targeted=true] {
+        background-color: #282a36
+    }
+    .LargeMultipleTagSelector > .ContextOverlayContainer > .LargeMultipleTagSelectorOverlay > .Content > .TagItemSet > .TagItemList > .TagItem > .TagItemChip.DefaultColor {
+        background-color: #f8f9fb
+    }
+    .LargeMultipleTagSelector > .ContextOverlayContainer > .LargeMultipleTagSelectorOverlay > .Content > .TagItemSet > .TagItemList > .TagItem > .TagItemChip > .InnerTagItemChip {
+        background-color: #fff
+    }
+    .LargeMultipleTagSelector > .ContextOverlayContainer > .LargeMultipleTagSelectorOverlay > .Content > .TagItemSet > .TagItemList > .TagItem > .TagItemChip > .Text {
+        color: #404040
+    }
+    .MaskedEditor1 > .InputContainer > .Mask {
+        background-color: #2b2f40
+    }
+    .MaskedEditor1 > .InputContainer > .Mask > .MaskCircle {
+        background: #f1fa8c
+    }
+    .MultipleDataSelector2 > .ContentContainer {
+        background-color: #bd93f9
+    }
+    .MultipleDataSelector2 > .ContentContainer > .SearchBox > .Placeholder {
+        color: #b3bec3
+    }
+    .MultipleItemSelector > .ContentContainer {
+        background-color: #bd93f9
+    }
+    .MultipleItemSelector > .ContentContainer > .SearchBox > .Placeholder {
+        color: #b3bec3
+    }
+    .MultipleRecipientSelector2 > .ContentContainer {
+        background-color: #bd93f9
+    }
+    .MultipleRecipientSelector2 > .ContentContainer > .LoadingIndicatorOverlay {
+        background-color: #282a36
+    }
+    .RadioButton > .RadioButtonItem.Selected > .Fill {
+        background-color: #ff79c6
+    }
+    .RadioButton > .RadioButtonItem.Selected.Disabled > .Fill {
+        background-color: #4e6973
+    }
+    .RichTextBox2 > .Content2 > .InputWrapper2 > .ContentEditable2 {
+        background-color: #282a36;
+        color: #f8f8f2
+    }
+    .RichTextBox2.Disabled > .Content2 > .InputWrapper2 > .ContentEditable2 {
+        background-color: #2b2f40
+    }
+    .RichTextBox2 > .Content2 > .InputWrapper2 > .ContentEditable2 table > thead > tr > th {
+        background-color: #3e4251
+    }
+    .RichTextBox2 > .Content2 > .InputWrapper2 > .ContentEditable2 .RichTextAnchor > div {
+        background-color: #ff5555
+    }
+    .RichTextBox2 > .Content2 > .InputWrapper2 > .DropArea2 {
+        background: rgba(17, 27, 34, 0.9)
+    }
+    .RichTextBox2 > .Content2 > .InputWrapper2 > .DropArea2 > .Content2 > .DropMessage2 > .PrimaryText {
+        color: #f1fa8c
+    }
+    .RichTextBox2 > .Content2 > .InputWrapper2 > .DropArea2 > .Content2 > .DropMessage2 > .SecondaryText {
+        color: #4e6973
+    }
+    .RichTextBox2 > .CharacterInformation {
+        color: #f1fa8c
+    }
+    .RichTextBox2 > .CharacterInformation.Important {
+        color: #ff5555
+    }
+    .SingleDataSelector2 > .ContentContainer {
+        background-color: #bd93f9
+    }
+    .SingleDataSelector2 > .ContentContainer > .SearchBox > .Placeholder {
+        color: #b3bec3
+    }
+    .TextArea2 > .CharacterInformation {
+        color: #f1fa8c
+    }
+    .TextArea2 > .CharacterInformation.Important {
+        color: #ff5555
+    }
+    .BodyContainer .Section > .CollapsibleSectionContainer > .ContentContainer > .Content .TextArea2 > textarea,
+    .BodyContainer .Section > .SectionContainer > .ContentContainer > .Content .TextArea2 > textarea {
+        color: #f1fa8c
+    }
+    .MenuColumnSet1 > .MenuColumn1 > .MenuColumnText,
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > .MenuColumnText {
+        color: #4e6973
+    }
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Heading1 > .Text1 {
+        color: #f1fa8c
+    }
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Heading1 > .SecondaryText1 {
+        color: #f1fa8c
+    }
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > a.Button.DisabledState > .Text,
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > div > .Button2.Disabled2 > .Text2 {
+        color: #4e6973
+    }
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > a.Button.HoverState,
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > a.Button.SelectedState,
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > div > .Button2:hover,
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > div > .Button2.Selected2 {
+        background: rgba(25, 158, 217, 0.3)
+    }
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > a.Button > .Text,
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > a.Button.Link,
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > div > .Button2 > .Text2 {
+        color: #f1fa8c
+    }
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > a.Button.Link {
+        color: #ff79c6
+    }
+    .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > a.Button.CopyTextMenuButton.NormalState:hover {
+        background: rgba(25, 158, 217, 0.3)
+    }
+    body.AuthenticationViewConfiguration > .PageContentContainer > .PageContent > .PrimaryContentContainer > .TransitionContainer > .ColumnContainer > .Column > .PrimaryButtonWrapper2 > .Button2.SuggestiveBackground {
+        background: #3872b2
+    }
+    body.AuthenticationViewConfiguration > .PageContentContainer > .PageContent > .PrimaryContentContainer > .TransitionContainer > .ColumnContainer > .Column > .PrimaryButtonWrapper2 > .Button2.SuggestiveBackground:hover {
+        background: #4a81bc
+    }
+    body.AuthenticationViewConfiguration > .PageContentContainer > .PageContent > .PrimaryContentContainer > .TransitionContainer > .ColumnContainer > .Column > .UnifiedLoginButtonWrapper2 > .Button2:hover {
+        background: #f9f9f9
+    }
+    body.AuthenticationViewConfiguration > .PageContentContainer > .PageContent > .PrimaryContentContainer > .TransitionContainer > .ColumnContainer > .Column > .ButtonDivider > span {
+        color: #999
+    }
+    .EntityBodyEnhancedText > .TextContainer {
+        color: #f8f8f2
+    }
+    .EntityBodyEnhancedText > .TextContainer > .Toggle > div > .LinkButton2 {
+        color: #dee0e7
+    }
+    .AccessoryTabButtonBar > .Button {
+        color: #cdd4d7
+    }
+    .AccessoryTabButtonBar > .Button.HoverState {
+        color: #f1fa8c
+    }
+    .AccessoryTabButtonBar > .Button.SelectedState {
+        color: #f1fa8c
+    }
+    .TabContainer > .ActivityTabShell > .LoadingIndicator {
+        background-color: #282a36
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .LinkButton2,
+    .ImageViewerHeader > div > .LinkButton2 {
+        color: #65b0ee
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .LinkButton2.Disabled2,
+    .ImageViewerHeader > div > .LinkButton2.Disabled2 {
+        color: #f1fa8c
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk > .Replies {
+        background: #bd93f9
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk > .RecentActivityStarters > .Replies {
+        background: #455571
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .Replies > .Header {
+        color: #dee0e7
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk > .RecentActivityStarters {
+        background: #2c3444
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk > .RecentActivityStarters > .Header {
+        color: #dee0e7
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Header,
+    .ImageViewerHeader > .Details > .Header {
+        color: #000
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Title.Internal,
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Title.Internal > .Text > div > .LinkButton2,
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Message.Internal,
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem.Internal > .Details > .Message,
+    .ImageViewerHeader > .Details > .Title.Internal {
+        color: #068941
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > div.Badge > span,
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Message > div.Badge > span,
+    .ImageViewerHeader > .Details > div.Badge > span {
+        color: #068941
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Title,
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Title > .Text > div > .LinkButton2,
+    .ImageViewerHeader > .Details > .Title {
+        color: #f1fa8c
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Subtitle {
+        color: #dee0e7
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Title > a.Text,
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > a.Attachment {
+        color: #65b0ee
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Message {
+        color: #f1fa8c
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Footer > .Timestamp,
+    .ImageViewerHeader > .Details > .Footer > .Timestamp {
+        color: #dee0e7
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk .ConversationItem > .Details > .Footer > .FooterActions > .ContextOverlayActionButton > .Circle {
+        background: #a1a1a1
+    }
+    .TabContainer > .ActivityTabShell > .Content > .Conversation > .ConversationChunk span.Highlight {
+        background-color: #a28b14
+    }
+    .TabContainer > .ActivityTabShell > .Content > .NoDataMessage {
+        color: #474b59
+    }
+    .ActivityAdvancedOptions > .FilterButtonPair > .Button.SelectedState {
+        background: #25293a
+    }
+    .ImageViewer > .Header {
+        background-color: #282a36
+    }
+    .ImageViewer > .Content > .Navigation > .Button {
+        background: #2b2f40
+    }
+    .CopyTextChipButton {
+        background: #f3f6f9
+    }
+    .CopyTextChipButton > .ChipLabel {
+        color: #474b59
+    }
+    .CopyTextChipButton.Successful > .ChipLabel {
+        color: #0fa96c
+    }
+    .CopyTextChipButton > .ChipText {
+        color: #474b59
+    }
+    .CopyTextChipButton.Successful > .ChipText {
+        color: #0fa96c
+    }
+    .ActivityFilterContextOverlay > .Content > .Columns > .Column > .Group > .Header {
+        color: #f1fa8c
+    }
+    .ContextOverlay.QuickTimeEntry > .Content > .QuickTimeShortcut {
+        color: #acb8cb
+    }
+    .ContextOverlay.QuickTimeEntry > .Content > .QuickTimeShortcut > .QuickTimeIcon {
+        color: #dee0e7
+    }
+    .BodyContainer .Section > .CollapsibleSectionContainer > .ContentContainer > .Content > .EntityBodySubstituteSection > .Content {
+        color: #8696b5
+    }
+    .RelatedTo > .RelatedItem > .ItemLink > .Button.Link {
+        color: #65b0ee
+    }
+    .RelatedTo > .EmptyAdditionalItems {
+        color: #8696b5
+    }
+    .RelatedTo > .GroupColumnContainer > .GroupColumn > .GroupContainer > .GroupCategoryChipContainer > .GroupCategoryChip {
+        color: #f1fa8c
+    }
+    body.SimpleEntityPage > .VerticalContainer > .Body > .PrimaryContent > .Divider > .Line,
+    body.SimpleEntityPage > .VerticalContainer > .Body > .PrimaryContent > .BodyContainer > .Divider > .Line {
+        background-color: #474b59
+    }
+    .Avatar > .Initials {
+        color: #f1fa8c
+    }
+    .QuickResponseCode2 {
+        background-color: #fff
+    }
+    .MaskedUserDefinedField1 > .MaskedContent1 > .MaskCircle1 {
+        background-color: #f1fa8c
+    }
+    .MaskedUserDefinedField1 > .UnmaskedContent1 > .Value1 {
+        color: #f1fa8c
+    }
+    .MaskedUserDefinedField1 > .ProgressBar1 {
+        background-color: #455571
+    }
+    .MaskedUserDefinedField1 > .ProgressBar1 > .Progress1 {
+        background-color: #f1fa8c
+    }
+    .ConversationItem > .Details > .Message.Internal > .Searchable > .ReadOnlyRichText,
+    .ConversationItem.Internal > .Details > .Message > .Searchable > .ReadOnlyRichText {
+        color: #068941
+    }
+    .ReadOnlyRichText a {
+        color: #65b0ee
+    }
+    .ReadOnlyRichText table > thead > tr > th {
+        background-color: #3e4251
+    }
+    a.ReplacementAnchor {
+        color: #65b0ee
+    }
+    .ReplacementLink {
+        color: #65b0ee
+    }
+    .TimeEntryTimeline > .TimelineContainer > .Timeline > .Block > .Line {
+        background-color: #474b59
+    }
+    .TimeEntryTimeline > .TimelineContainer > .Timeline > .Block > .Label > .Text {
+        color: #6b7b98
+    }
+    .TimeEntryTimeline > .TimelineContainer > .Timeline > .Block > .Mark {
+        background-color: #474b59
+    }
+    .TimeEntryTimeline > .TimelineContainer > .Timeline > .Block > .TimeEntry {
+        background-color: #455571
+    }
+    .TimeEntryTimeline > .TimelineContainer > .Timeline > .Block > .TimeEntry.Current {
+        background-color: #66b5ff
+    }
+    .TimeEntryTimeline > .TimelineContainer > .Timeline > .Block > .VerticalIndicator.CurrentTime {
+        background-color: #fac446
+    }
+    .TimeEntryTimeline > .TimelineContainer > .Timeline > .Block > .VerticalIndicator.SnapPoint {
+        background-color: #66b5ff
+    }
+    .TabButtonDropIndicator1 {
+        color: transparent
+    }
+    .WidgetDataFilter1 > .Filter > .Text {
+        color: #f1fa8c
+    }
+    .Dashboard1.Presentation > .DashboardHeading1 > .TitleBarContainer > .DashboardTitleBar1 {
+        background-color: #002a3a
+    }
+    .DashboardTitleBar1 > .TitleContainer > .Title,
+    .DashboardTitleBar1 > .TitleContainer > .SecondaryText {
+        color: #f1fa8c
+    }
+    .TabGroupContextMenuButton1 {
+        color: #8be9fd
+    }
+    .TabGroupContextMenuButton1.Active {
+        background-color: #282a36;
+        color: #8be9fd
+    }
+    .DashboardTabButton1 {
+        color: #bd93f9
+    }
+    .DashboardTabButton1:hover {
+        color: #ff79c6
+    }
+    .DashboardTabButton1.Selected {
+        color: #ff79c6;
+        border-bottom: 3px solid #ff79c6
+    }
+    .CreateWidgetButton1 {
+        color: #282a36
+    }
+    .CreateWidgetButton1 > .HorizontalLine,
+    .CreateWidgetButton1 > .VerticalLine {
+        background-color: #a1a1a1
+    }
+    .Widget1 {
+        background-color: #282a36
+    }
+    .Widget1 > .Title {
+        color: #ff79c6
+    }
+    .WidgetOverlay {
+        background: #282a36;
+        color: #f1fa8c
+    }
+    .ContextOverlay.WidgetContextOverlay {
+        background-color: #181c23
+    }
+    .Widget1 > .Content > .Total {
+        color: #f1fa8c
+    }
+    .Widget1 > .Content > .GaugeTable > .GaugeColumn > .GaugeContainer > .GaugeTitle {
+        color: #f1fa8c
+    }
+    .Widget1 > .Content > .GaugeTable > .GaugeColumn > .GaugeContainer > .GaugeError {
+        background-color: #282a36
+    }
+    .Widget1 > .Content > .ContentContainer > .MessagePrimaryText {
+        color: #a0a0a0
+    }
+    .Widget1 > .Content > .ContentContainer > .MessageSecondaryText,
+    .Widget1 > .Content > .ContentContainer > .ReferenceId {
+        color: #979797
+    }
+    .Widget1 > .Content > .ContentContainer > .MessageSecondaryText > .Link {
+        color: #ff79c6
+    }
+    .Widget1 > .Content > .ContentContainer > .MessageSecondaryText > .Link:hover {
+        color: #8be9fd
+    }
+    .Widget1 > .Content > .TableContainer > table > tbody > tr:nth-child(even) {
+        background-color: #282a36
+    }
+    .Widget1 > .Content > .TableContainer > table > thead {
+        background-color: #282a36
+    }
+    .Widget1 > .Content > .TableContainer {
+        color: #f1fa8c
+    }
+    .Widget1 > .Content > .TableContainer > .Amount {
+        color: #f1fa8c
+    }
+    .Widget1 > .Content > .TableTotal {
+        color: #f1fa8c
+    }
+    #SiteNavigationBar .SiteNavigationButton.TextOnly > .Text {
+        color: #f1fa8c;
+        font-weight: bold;
+        font-size: 15px
+    }
+    #SiteNavigationBar .SiteNavigationButton.Help > .AnnouncementsIndicator {
+        background-color: #ff5555;
+        color: #f1fa8c
+    }
+    #SiteNavigationBar .ContextOverlay .SecondaryText.AnnouncementsIndicator {
+        color: #ff5555
+    }
+    #SiteNavigationBar .SiteNavigationButton.Help > .WhatsNewIndicator {
+        background-color: #ff5555
+    }
+    .Guide .Button.GuideNavigation {
+        color: #f1fa8c
+    }
+    .Guide .Button.GuideNavigation.SelectedState {
+        background: #ff79c6;
+        color: #f1fa8c
+    }
+    #SiteNavigationBar {
+        background-color: #44475a
+    }
+    #SiteNavigationBar > .Right {
+        background-color: #44475a
+    }
+    #TicketSlideOutHandle,
+    #TaskSlideOutHandle {
+        background-color: #355460
+    }
+    #TicketSlideOutHandle .Badge,
+    #TaskSlideOutHandle .Badge {
+        background-color: #ceedfd;
+        color: #355460
+    }
+    #SlideOut {
+        background-color: #282a36
+    }
+    #SiteNavigationBar .Guide {
+        background-color: #bd93f9
+    }
+    .WorkListPopupTabContainer {
+        background-color: #282a36
+    }
+    .WorkListPopupTabContainer .WorkListPopupTab {
+        background-color: #355460;
+        color: #f1fa8c
+    }
+    .WorkListPopupTabContainer .WorkListPopupTab .WorkListPopupTabCount {
+        background-color: #ceedfd;
+        color: #355460
+    }
+    .WorkList {
+        background-color: #282a36
+    }
+    .WorkList > .WorkListLoadingIndicator {
+        background-color: #3c3f4e
+    }
+    .WorkList .Header {
+        background-color: #355460
+    }
+    .WorkList .WorkListFooter {
+        color: #ff79c6
+    }
+    .WorkList .Header .HeaderText {
+        color: #f1fa8c
+    }
+    .WorkList .Header .HeaderBadge {
+        background-color: #ceedfd;
+        color: #355460
+    }
+    .WorkList .EmptyListMessageContainer {
+        color: #f1fa8c
+    }
+    .WorkList .WorkListItems .WorkListItem {
+        background-color: #282a36
+    }
+    .WorkList .WorkListLineItemDetail.Account {
+        color: #f1fa8c
+    }
+    .WorkList .WorkListLineItemDetail.TicketNumber {
+        color: #f1fa8c
+    }
+    .WorkList .WorkListLineItemDetail.AddedByUser {
+        color: red
+    }
+    #SiteNavigationBar .ContextOverlay {
+        background-color: #44475a
+    }
+    #SiteNavigationBar .ContextOverlay > .Content .Title {
+        color: #f1fa8c
+    }
+    #SiteNavigationBar .ContextOverlay.UserOverlay > .Content > .UserInformation > .TextContainer > .Name {
+        color: #f1fa8c
+    }
+    #SiteNavigationBar .ContextOverlay.UserOverlay > .Content > .UserInformation > .TextContainer > .EmailAddress {
+        color: #f1fa8c
+    }
+    .AppLauncherMenu {
+        color: #c7c7c7
+    }
+    .AppLauncherMenu > .AppLauncherMenuHeader > .KaseyaOneLink {
+        color: #67c5d4
+    }
+    .AppLauncherMenu > .ProductSections > .ProductSection.Licensed > .ProductSectionBody {
+        grid-template-columns: 1fr 1fr
+    }
+    .AppLauncherMenu > .ProductSections > .ProductSection > .ProductSectionBody > .AppLauncherMenuButton > a {
+        color: #c7c7c7
+    }
+    .AppLauncherMenu > .ProductSections > .ProductSection > .ProductSectionBody > .AppLauncherMenuButton > a > .AppLauncherMenuButtonIcon {
+        background-color: blue
+    }
+    .AppLauncherMenu > .ProductSections > .ProductSection > .ProductSectionBody > .AppLauncherMenuButton > a > .AppLauncherMenuButtonText > .ProductDescription {
+        color: #b6b6b6
+    }
+}
