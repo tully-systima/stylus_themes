@@ -1,0 +1,88 @@
+/* ==UserStyle==
+@name           ScreenConnect - Dracula
+@namespace      https://github.com/tully-systima/stylus_themes
+@updateURL      https://github.com/tully-systima/stylus_themes/raw/main/screenconnect_dracula.css
+@version        1.0.0
+@description    ScreenConnect Dracula theme
+@author         Tully
+==/UserStyle== */
+
+@-moz-document domain("help.systima.com.au") {
+    body {
+        font-family: "Consolas", "Segoe UI", "Helvetica Neue", Helvetica, Tahoma, Arial;
+        color: #f8f8f2;
+        background-color: #1b1c24;
+    }
+    /* Nav panel */   
+    .OuterPanel .NavigationPanel {
+    background-color: #44475a;
+    }
+    .OuterPanel .HeaderPanel .LogoIconLink {
+    background-color: #44475a;
+    }
+    .OuterPanel .NavigationPanel > div:not(.FlexSpacer):not(.TrayPanelContainer).Selected {
+     border-color: #bd93f9;
+    border-width: 2px;
+    box-shadow: inset 0px 0px 10px #bd93f9;
+    background-color: #282a36;
+    }
+    .OuterPanel .NavigationPanel > div:not(.FlexSpacer):not(.TrayPanelContainer):hover {
+    background-color: #282a36;
+    }
+    .OuterPanel .MainPanel .MainDetailPanel .DetailSelectionPanel .DetailTableContainer table > tbody > tr.Selected, .OuterPanel .MainPanel .MainDetailPanel .DetailSelectionPanel .DetailTableContainer table > tbody > tr.Selected:hover {
+    background-color: #44475a;
+    }
+    
+    
+    .OuterPanel .MainPanel .MasterPanel {
+    grid-area: MasterPanel;
+    background-color: #282a36;
+    color: #f8f8f2;
+    }
+    .OuterPanel .MainPanel .MasterPanel p.Create a {
+    color: #f1fa8c;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #bd93f9;
+    }
+    .OuterPanel .MainPanel .MasterPanel .MasterListContainer ul li.Unacknowledged > div > span:after {
+    background-color: #ff79c6;
+    }
+    .ResizeHandleBar:hover {
+    background: linear-gradient(to right, rgba(0,0,0,0) 30%, #bd93f9, rgba(0,0,0,0) 70%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 30%, #bd93f9, rgba(0, 0, 0, 0) 70%);
+    }
+    
+    /* Center panel */
+    .OuterPanel .MainPanel .MainDetailPanel {
+    border-color: #bd93f9;
+    border-width: 2px;
+    box-shadow: inset 0px 0px 30px #bd93f9;
+    }
+    
+    /* Right panel */
+    .OuterPanel .MainPanel .SubDetailPanel {
+    background-color: #282a36;
+    }
+    .OuterPanel .MainPanel .SubDetailHeaderPanel {
+    color: #bd93f9;
+    background-color: #44475a;
+    }
+    .OuterPanel .MainPanel .SubDetailPanel .DetailTabList > div {
+    background-color: #282a36;
+    border-color: #2B2B2B;
+    border-top-color: rgb(43, 43, 43);
+    border-right-color: rgb(43, 43, 43);
+    border-bottom-color: rgb(43, 43, 43);
+    border-left-color: rgb(43, 43, 43);
+    }
+    .OuterPanel .MainPanel .SubDetailPanel .DetailTabList > div.Selected, .OuterPanel .MainPanel .SubDetailPanel .DetailTabList > div.Selected:hover {
+    border-color: #bd93f9;
+    border-top-color: #bd93f9;
+    border-right-color: #bd93f9;
+    border-bottom-color: #bd93f9;
+    border-left-color: #bd93f9;
+    background-color: #44475a;
+    }
+        
+}

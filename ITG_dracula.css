@@ -1,0 +1,286 @@
+/* ==UserStyle==
+@name           IT Glue - Dracula
+@namespace      https://github.com/tully-systima/stylus_themes
+@updateURL      https://github.com/tully-systima/stylus_themes/raw/main/ITG_dracula.css
+@version        1.0.0
+@description    IT Glue Dracula theme
+@author         Tully
+==/UserStyle== */
+
+@-moz-document domain("itglue.com") {
+    .ui-lib-dark-theme, body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) {
+        --main-background-color: #1b1c24;
+        --secondary-background-color: #282a36;
+        --primary-text-color: #f8f8f2;
+        --secondary-text-color: #6272a4;
+        --primary-accent-color: #bd93f9;
+        --primary-accent-hover-color: #ff79c6;
+        --secondary-accent-color: #f1fa8c;
+        --secondary-accent-hover-color: #677b8c;
+        --secondary-accent-color-50-opacity: rgba(134,154,171,0.5);
+        --link-color: #ff79c6;
+        --error-color: #d9534f;
+        --error-hover-color: #c9302c;
+        --warning-color: #e99002;
+        --info-color: #6ca7e2;
+        --disabled-color: #40494f;
+        --muted-text-color: #536778;
+        --muted-accent-color: #2e373d;
+        --icon-global-color: #f2f3f5;
+        --dropzone-border-color: #7d7d7d;
+        --dropzone-background-color: #20262c;
+        --dropzone-title-color: #fff;
+        --dropzone-button-color: #5baeff;
+        --dropzone-text-color: #e5e5e5;
+        --dropzone-active-border-color: #5fa0f2;
+        --dropzone-active-background-color: rgba(49,134,218,0.2);
+        --banner-reminder-color: var(--fixed-san-juan);
+        --banner-warning-color: #fcf2e2;
+    }
+    body {
+        --primary-accent-color: #1CC0BE;
+        --primary-border-color: #40494F;
+        --primary-text-color: #E5E5E5;
+        --primary-background-color: #22272B;
+        --secondary-background-color: #181B1E;
+        --secondary-border-color: #40494F;
+        --secondary-accent-color: #869AAB;
+        --disabled-color: #40494F;
+        --active-color: #67C5D4;
+        --button-background-color: #22272B;
+        --button-disabled-background-color: transparent;
+        --button-disabled-border-color: #40494F;
+        --form-element-background-color: #181B1E;
+        --form-element-border-color: transparent;
+        --form-element-border-focused-color: #40494F;
+        --form-element-disabled-color: #444;
+        --kaseya-ui-form-element-disabled-color: #515457;
+        --form-element-editable-color: #343A40;
+        --form-element-text-color: #E5E5E5;
+        --form-input-text-color: #E5E5E5;
+        --form-input-border-color: #7D7D7D;
+        --itc-removable-tag-text-color: #E5E5E5;
+        --itc-removable-tag-background-color: rgba(103, 197, 212, 0.3);
+        --itc-removable-tag-button-color: #99EBF8;
+        --itc-tag-black-color: #E5E5E5;
+        --itc-tag-black-background-color: rgb(148, 147, 147, 0.3);
+        --itc-tag-bittersweet-color: #FFA4A4;
+        --itc-tag-bittersweet-background-color: rgb(252, 73, 77, 0.3);
+        --itc-tag-green-color: #67D996;
+        --itc-tag-green-background-color: rgb(63, 149, 100, 0.3);
+        --itc-tag-lavender-color: #D0B7FF;
+        --itc-tag-lavender-background-color: rgb(156, 119, 227, 0.3);
+        --itc-tag-orange-color: #FFB053;
+        --itc-tag-orange-background-color: rgb(185, 118, 12, 0.3);
+        --itc-tag-ocean-blue-color: #87C4FF;
+        --itc-tag-ocean-blue-background-color: rgb(49, 134, 218, 0.3);
+        --itc-tag-purple-color: #F890E6;
+        --itc-tag-purple-background-color: rgb(154, 79, 141, 0.3);
+        --itc-tag-red-color: #EF534E;
+        --itc-tag-red-background-color: rgb(201, 77, 44, 0.3);
+        --itc-tag-sky-blue-color: #55CDF2;
+        --itc-tag-sky-blue-background-color: rgb(32, 126, 156, 0.3);
+        --itc-tag-turqoise-color: #5AD4D6;
+        --itc-tag-turqoise-background-color: rgb(32, 126, 156, 0.3);
+        --itc-tag-violet-color: #B6A6FF;
+        --itc-tag-violet-background-color: rgb(79, 74, 204, 0.3);
+        --itc-tag-yellow-color: #E8BD4F;
+        --itc-tag-yellow-background-color: rgb(180, 134, 18, 0.3);
+        --typeahead-selected-item-color: #333;
+        --itc-primary-color: #67C5D4;
+        --itc-primary20-color: rgba(103, 197, 212, 0.2);
+        --itc-primary-background-color: #22272C;
+        --itc-primary-text-color: #C7C7C7;
+        --itc-in-app-text-color: #C7C7C7;
+        --itc-in-app-text-description-color: #C7C7C7;
+        --itc-secondary-text-color: #B6B6B6;
+        --itc-light-text-color: #C7C7C7;
+        --itc-mixed-text-color: #B6B6B6;
+        --itc-muted-text-color: #969696;
+        --itc-placeholder-text-color: #ABABAB;
+        --itc-disabled-text-color: #7D7D7D;
+        --itc-disabled-background-color: #515457;
+        --itc-border-color: #515457;
+        --itc-form-element-border-color: #7D7D7D;
+        --itc-disabled-border-color: #515457;
+        --itc-secondary-background-color: #282a36;
+        --itc-secondary-border-color: #67C5D4;
+        --itc-info-background-color: #29466A;
+        --itc-success-background-color: #275248;
+        --itc-warning-background-color: #40341B;
+        --itc-error-background-color: #492229;
+        --itc-icon-color: #bd93f9;
+        --itc-primary-hover-color: #31E3FF;
+        --itc-accent-hover-color: #38E080;
+        --itc-button-text-color: #20262C;
+        --itc-button-danger-text-color: #FFFFFF;
+        --itc-button-secondary-disabled-text-color: #515457;
+        --itc-button-secondary-hover-background-color: rgba(49,227,255,.15);
+        --itc-button-danger-hover-background-color: rgba(217,83,79,.15);
+        --itc-tooltip-background-color: #35434C;
+        --itc-tooltip-text-color: #E5E5E5;
+        --itc-tooltip-title-color: #E5E5E5;
+        --itc-tooltip-link-color: #67C5D4;
+        --itc-tab-border-color: #515457;
+        --itc-tab-text-color: #001D30;
+        --itc-tab-active-text-color: #6BC5D3;
+        --itc-tab-active-border-color: #6BC5D3;
+        --itc-tab-hover-border-color: #969696;
+        --itc-tab-disabled-color: #515457;
+        --itc-tab-badge-background-color: rgba(148, 147, 147, 0.2);
+        --itc-tab-active-badge-background-color: rgba(49, 134, 218, 0.2);
+        --itc-tab-hover-badge-background-color: rgba(148, 147, 147, 0.2);
+        --itc-disabled-checkbox-color: #969696;
+        --itc-secondary-button-color: #67C5D4;
+        --itc-shadow-color: rgba(0,0,0,.6);
+        --itc-toggle-background-color: #7D7D7D;
+        --itc-editable-hover-color: #343A40;
+        --itc-gray-tag-background-color: #343A40;
+        --itc-scrollbar-face-color: rgba(229, 229, 229, 0.4);
+        --itc-dropdown-item-selected-color: rgba(103, 197, 212, .15);
+        --itc-dropdown-panel-background-color: #272D33;
+        --itc-dialog-top-divider-color: #424548;
+        --itc-dialog-bottom-divider-color: #424548;
+        --itc-login-accent-color: var(--itc-primary-color);
+        --itc-login-accent-hover-color: var(--itc-primary-hover-color);
+        --itc-topbar-button-active-color: #343A40;
+        --itc-topbar-button-hover-color: rgba(255, 255, 255, .12);
+        --itc-topbar-button-text-color: #C7C7C7;
+        --itc-topbar-button-text-active-color: #E5E5E5;
+        --itc-topbar-dropdown-title-color: #969696;
+        --itc-topbar-dropdown-background-color: #272D33;
+        --itc-topbar-dropdown-border-color: #424548;
+        --itc-topbar-dropdown-text-color: #bd93f9;
+        --itc-dot-loader-primary-color: rgba(32, 38, 44, .8);
+        --itc-dot-loader-secondary-color: rgba(49, 227, 255, .8);
+        --itc-dot-loader-ghost-color: rgba(49, 227, 255, .8);
+        --itc-popover-text-color: #C7C7C7;
+        --itc-popover-background-color: #272D33;
+        --itc-sidebar-header-color: #7D7D7D;
+        --itc-sidebar-item-hover-color: #343A40;
+        --itc-sidebar-navigation-resize-button-border-color: #343A40;
+        --itc-sidebar-navigation-resize-button-icon-color: #E8E8E8;
+        --itc-sidebar-item-active-color: #E5E5E5;
+        --itc-sidebar-opaque-box-color: #000000;
+        --itc-sidebar-drawer-border-color: #424548;
+        --itc-in-app-opaque-box-color: rgba(2, 2, 2, 0.65);
+        --itc-in-app-search-bar-color: #7D7D7D;
+        --itc-in-app-search-icon-color: #969696;
+        --itc-in-app-results-color: #969696;
+        --itc-in-app-chevron-icon-color: #67C5D4;
+        --itc-video-tag-green-color: rgba(103, 217, 150, 1);
+        --itc-video-tag-blue-color: rgba(85, 205, 242, 1);
+        --itc-video-tag-lavender-color: rgba(205, 184, 245, 1);
+        --itc-video-tag-grey-color: rgba(0, 173, 67, 1);
+        --itc-video-tag-red-color: rgba(239, 83, 78, 1);
+        --itc-video-tag-purple-color: rgba(199, 88, 180, 1);
+        --itc-video-tag-turqoise-color: rgba(83, 198, 199, 1);
+        --itc-video-tag-ocean-blue-color: rgba(91, 174, 255, 1);
+        --itc-video-tag-bitterweet-color: rgba(255, 137, 137, 1);
+        --itc-video-tag-orange-color: rgba(251, 154, 40, 1);
+        --itc-video-tag-yellow-color: rgba(222, 181, 76, 1);
+        --itc-video-tag-violet-color: rgba(124, 96, 247, 1);
+        --itc-video-tag-green-background-color: rgba(0, 173, 67, 0.3);
+        --itc-video-tag-blue-background-color: rgba(85, 205, 242, 0.3);
+        --itc-video-tag-lavender-background-color: rgba(205, 184, 245, 0.3);
+        --itc-video-tag-grey-background-color: rgba(0, 173, 67, 0.3);
+        --itc-video-tag-red-background-color: rgba(201, 48, 44, 0.3);
+        --itc-video-tag-purple-background-color: rgba(154, 79, 141, 0.3);
+        --itc-video-tag-turqoise-background-color: rgba(32, 126, 156, 0.3);
+        --itc-video-tag-ocean-blue-background-color: rgba(49, 134, 218, 0.3);
+        --itc-video-tag-bitterweet-background-color: rgba(252, 73, 48, 0.3);
+        --itc-video-tag-orange-background-color: rgba(185, 118, 12, 0.3);
+        --itc-video-tag-yellow-background-color: rgba(180, 134, 18, 0.3);
+        --itc-video-tag-violet-background-color: rgba(79, 74, 204, 0.3);
+        --itc-in-app-sidebar-hover-color: #343A40;
+        --itc-in-app-sidebar-active-color: #343A40;
+        --itc-in-app-sidebar-item-active-color: #67C5D4;
+        --itc-link-color: #67C5D4;
+        --spinner-color: 255, 255, 255;
+        --login-swirl1-color: #181B1E;
+        --login-swirl2-color: #1E2329;
+        --login-swirl3-color: #343A40;
+        --login-swirl4-color: #181B1E;
+        --theme-color: #181B1E;
+        color: #E5E5E5;
+        background-color: #22272B;
+    }
+    body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) {
+    --itc-gray-tag-background-color: var(--itc-secondary-background-color);
+    --sidepanel-background-color: #1b1c24;
+    --form-element-label-color: var(--primary-text-color);
+    --form-element-error-color: var(--error-color);
+    --form-element-background-color: #2c343a;
+    --form-element-border-color-focused: var(--secondary-accent-color);
+    --form-element-border-color: var(--secondary-text-color);
+    --form-element-text-color: var(--primary-text-color);
+    --form-element-accent-color: var(--secondary-text-color);
+    --form-element-disabled-color: var(--disabled-color);
+    --form-element-placeholder-text-color: var(--itc-placeholder-text-color);
+    --form-element-help-text-color: var(--secondary-text-color);
+    --border-color: #656565;
+    --primary-overlay-color: rgba(103,197,212,0.15);
+    --itc-removable-tag-text-color: var(--kaseya-blue-110);
+    --itc-removable-tag-button-color: var(--kaseya-blue-110);
+    --itc-removable-tag-background-color: var(--kaseya-gray-30);
+    --itc-error-tag-background-color: var(--kaseya-red-80);
+    --itc-error-tag-text-color: var(--kaseya-global-white);
+    --itc-error-tag-close-button-color: var(--kaseya-global-white);
+    --icon-disabled: var(--kaseya-midnight-60);
+    --sidebar-background: var(--secondary-background-color);
+    --sidebar-hover-background: #4e5a64;
+    --sidebar-active-background: var(--form-element-background-color);
+    --sidebar-text-color: var(--secondary-text-color);
+    --sidebar-hover-text-color: var(--primary-text-color);
+    --sidebar-active-text-color: var(--primary-accent-color);
+    --sidebar-badge-background: var(--form-element-background-color);
+    --tab-badge-background: var(--form-element-background-color);
+    --sidebar-open-width: 240px;
+    --darkmode-padding: 10px;
+    --drag-active-background-color: #c3cdd5;
+    --clear-button-hover-background-color: #282f34;
+    --modal-background-color: #343940;
+    --modal-overlay-color: rgba(16,18,20,0.6);
+    --checklist-task-completing-animation-color: #203d40;
+    --pulse-background-color: #127d7c;
+    --dimmed-primary-text-color: #afb2b5;
+    --formatted-code-background-color: #37434b;
+    --card-background-color: #f2f2f2;
+    --card-hover-background-color: #ccc;
+    --datepicker-date-muted-color: #363e44;
+    --scrollbar-track-color: var(--modal-background-color);
+    --scrollbar-thumb-color: var(--secondary-background-color);
+    background-color: var(--main-background-color);
+    color: var(--primary-text-color);
+    --itc-shadow-color: rgba(0,0,0,0.6);
+}
+    body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) .react-table {
+    --table-background-color: var(--main-background-color);
+    --table-head-shadow: none;
+    --table-item-link-color: var(--itc-primary-color);
+    --table-item-text-color: #6272a4;
+    --table-element-border-color: var(--muted-accent-color);
+    --form-error-message-bg: rgba(201,48,44,0.2);
+    --header-text-color: var(--secondary-text-color);
+    --header-sort-icon-default-color: var(--secondary-accent-color-50-opacity);
+    --bulk-action-result-box-bg-color: var(--table-background-color);
+    --bulk-action-selected-border-color: var(--secondary-text-color);
+    --row-hover-background-color: #272e33;
+    --row-icons-color: var(--table-item-link-color);
+    --row-disabled-icon-color: var(--secondary-accent-color-50-opacity);
+    --row-count-text-color: var(--secondary-text-color);
+    --tags-clear-button-color: var(--secondary-text-color);
+    --row-checked-background-color: #273136;
+}
+
+    body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) .page-header, body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) h1, body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) h2, body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) h3, body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) h4, body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) h5, body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) h6 {
+        color: #bd93f9;
+    }
+    body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) .kaseya-ui-sidebar .sidebar-item a {
+    color: #f8f8f2;
+}
+    body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) .sidebar-item__badge {
+    color: #f1fa8c;
+}
+
+    }
