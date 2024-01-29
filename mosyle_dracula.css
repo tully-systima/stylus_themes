@@ -1,0 +1,351 @@
+/* ==UserStyle==
+@name           mybusiness.mosyle.com - Jan 2024
+@namespace      https://github.com/tully-systima/stylus_themes
+@updateURL      https://github.com/tully-systima/stylus_themes/raw/main/mosyle_dracula.css
+@version        1.0.0
+@description    Mosyle Dracula theme
+@author         Tully
+==/UserStyle== */
+@-moz-document url-prefix("https://mybusiness.mosyle.com/") {
+    html,
+    body,
+    input,
+    select,
+    button,
+    textarea,
+    text {
+        font: 12px "Consolas", sans-serif;
+        color: #f1fa8c;
+        header {
+            background: #44475a;
+            color: #fff !important;
+        }
+        #main {
+            background: #1b1c24;
+        }
+        body.gradient {
+            background: #282a36;
+            background: -moz-radial-gradient(center, ellipse cover, #282a36 0%, #282a36 100%);
+            background: -webkit-radial-gradient(center, ellipse cover, #44475a 0%, #282a36 100%);
+            background: radial-gradient(ellipse at center, #282a36 0%, #282a36 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="$from", endColorstr="$to", GradientType=1);
+        }
+        a,
+        .a_link {
+            color: #ff79c6;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .texty h2 {
+            margin-bottom: 5px;
+            color: #f1fa8c;
+        }
+        .lista {
+            color: #f1fa8c;
+        }
+        .button.cyan,
+        .button.primary,
+        button:not(.btn).cyan,
+        button:not(.btn).primary,
+        input[type=button].cyan,
+        input[type=button].primary,
+        input[type=submit].cyan,
+        input[type=submit].primary {
+            color: #fff;
+            background-color: #bd93f9;
+        }
+        .lista-configuracoes-vert .platform-label span {
+            color: #bd93f9;
+        }
+        select {
+            background: #6272a4;
+            color: #f1fa8c;
+        }
+        .lista-configuracoes-vert {
+            color: #37474f;
+            border-color: #004d80;
+            background: #282a36;
+        }
+        .lista-configuracoes-vert .after-platform-label:before {
+            box-shadow: 0 0 25px 25px #44475a;
+        }
+        .lista-configuracoes-vert li:not(.titulo).selected,
+        .lista-configuracoes-vert .item:not(.titulo).selected {
+            color: #37474f;
+            border-color: #f1fa8c;
+            background: #44475a;
+        }
+        .menu-item span {
+            color: #cabddc;
+            font-weight: 800;
+        }
+        #management_profiles .button.new-profile {
+            background: #44475a;
+        }
+        #bulkoperations_main {
+            background: #282a36;
+            font: 12px "Consolas", sans-serif;
+        }
+        #bulkoperations_main {
+            border-left: 0px solid #ddd;
+            border-left-width: 0px;
+            border-left-style: solid;
+            border-left-color: rgb(221, 221, 221);
+            border-right: 0px solid #ddd;
+            border-right-width: 0px;
+            border-right-style: solid;
+            border-right-color: rgb(221, 221, 221);
+            border-bottom: none;
+            border-bottom-width: initial;
+            border-bottom-style: none;
+            border-bottom-color: initial;
+            border-radius: 0px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+            box-shadow: 0 3px 20px -4px rgba(23, 28, 33, .1);
+        }
+    }
+    #bulkoperations_tabs .bulk_tab.selected {
+        background: #6272a4;
+    }
+    #bulkoperations_tabs .bulk_tab {
+        background: #44475a;
+    }
+    #bulkoperations_tabs {
+        height: 60px;
+        vertical-align: top;
+        border-bottom: 0px solid #ddd;
+        border-bottom-width: 0px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(221, 221, 221);
+    }
+    #bulkoperations_tabs .bulk_tab .tab_name {
+        color: #ff79c6;
+    }
+    #bulkoperations_tabs .bulk_tab .tab_description {
+        color: #f1fa8c;
+    }
+    #bulkoperations_main .device_tags .device_tag {
+        background: #6272a4;
+    }
+    #bulkoperations_main .device_tags .device_tag.dep {
+        border: 1px dashed #ababb6;
+        background: #6272a4;
+        color: #ababb6;
+        font-style: italic;
+    }
+    #bulkoperations_main .asset_tag_edit_btn {
+        width: 16px;
+        height: 16px;
+        vertical-align: top;
+        margin: 1px 0 0 3px;
+        background: #bd93f9 url(../icons-utils/37474F/icon54/solid/basic-icons/pencil.svg) no-repeat center;
+        background-size: 10px;
+        border-radius: 3px;
+    }
+    #filter-funnel-btn {
+        content: "";
+        float: left;
+        height: 50px;
+        width: 40px;
+        background: #bd93f9 url(../icons-utils/37474F/icon54/solid/objects/filter.svg) no-repeat center;
+        background-size: 20px;
+        border-radius: 5px;
+        margin-right: 7px;
+    }
+    .button.graybordered,
+    button:not(.btn).white,
+    button:not(.btn).graybordered,
+    input[type=button].white,
+    input[type=button].graybordered,
+    input[type=submit].white,
+    input[type=submit].graybordered {
+        color: #282a36;
+        background-color: #bd93f9;
+        border-color: #ff79c600;
+    }
+    input[type=checkbox] {
+        background: #bd93f9;
+        width: 21px;
+        height: 21px;
+        border: 0px solid #d1d8da !important;
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-top: -2px;
+        border-radius: 4px;
+        min-width: 21px !important;
+        min-height: 21px !important;
+    }
+    input[type=checkbox]:checked {
+        border-color: #ff79c6 !important;
+        background: #ff79c6 url(../icons-utils/FFFFFF/mosyle-icons/basic-icons/checkbox.svg) no-repeat center;
+        background-size: 60%;
+    }
+    .multiselect_options > .option > .text {
+        vertical-align: top;
+        padding: 10px 0 0 2px;
+        font-weight: 600;
+        color: #f1fa8c;
+    }
+    .multiselect_options {
+        background: #6272a4;
+        height: 37px;
+        border-radius: 5px;
+        border: 1px solid #44475a;
+        float: left;
+        transition: all .8s;
+    }
+    .multiselect_options.disabled,
+    .multiselect_options.force_disabled {
+        background: #44475a;
+        border-color: #44475a;
+    }
+    .multiselect_options.disabled > .option:not(:last-child),
+    .multiselect_options.force_disabled > .option:not(:last-child) {
+        border-color: #44475a;
+    }
+    .multiselect_options > .option:not(:last-child) {
+        border-right: 1px solid #44475a;
+    }
+    #bulkoperations_main .disc > .disc_percentage {
+        width: 100%;
+        background: #50fa7b;
+        height: 100%;
+    }
+    #bulkoperations_main .disc.orange {
+        border-color: #ffb86c;
+    }
+    element.style {
+        float: right;
+        width: 130px;
+        background: #057c69;
+        text-align: center;
+        margin-top: 4px;
+        padding-top: 8px;
+        height: 37px;
+        font-weight: 600;
+        color: #37474f;
+        border-radius: 4px;
+        border: 1px solid #D1D8DA;
+    }
+    table.fixed-header.style-basic thead {
+        border-top: 0px solid #d1d8da;
+        background: #6272a4;
+        border-bottom: 1px solid #ccc;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    }
+    .organization-menu .menu-title.titulo {
+        background: #44475a;
+        margin: 0;
+        padding: 10px 20px 10px 30px !important;
+    }
+    .organization-menu .menu-title.titulo {
+        font-weight: 600;
+        color: #ff79c6;
+    }
+    .main-content .box-container {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        background: #44475a;
+        padding: 18px;
+        border-radius: 4px 4px 0 0;
+        box-shadow: 0 3px 20px -4px rgba(23, 28, 33, .1);
+    }
+    .list-header > .header-title {
+        font-weight: bold;
+        padding-top: 4px;
+        text-align: left;
+        color: #ff79c6;
+    }
+    .lista {
+        height: 100%;
+        background: #44475a;
+        border-radius: 4px;
+        color: #37474f;
+        width: 100%;
+        position: relative;
+        clear: both;
+        box-shadow: 0 3px 20px -4px rgba(23, 28, 33, .1);
+        -webkit-box-orient: block-axis;
+        -webkit-box-direction: normal;
+        -moz-box-orient: block-axis;
+        -moz-box-direction: normal;
+    }
+    .lista li:nth-child(even) {
+        background: #6272a4;
+    }
+    .lista li .title {
+        color: #f1fa8c;
+    }
+    .lista li .description {
+        color: #cabddc;
+    }
+    .enroll-option {
+        background: #44475a;
+    }
+    #dash:not(.old-dashboard) .dash-box {
+    background: #282a36	;
+    }#dash:not(.old-dashboard) .dash-box .box-title {
+    color: #bd93f9;
+    }
+    #dash:not(.old-dashboard) .dash-list {
+    border: 1px solid #44475a;
+    border-radius: 4px;
+    }
+    #dash:not(.old-dashboard) .dash-list .list-item:nth-child(odd) {
+    background: #44475a;
+    }
+    #dash:not(.old-dashboard) .dash-list .list-item:nth-child(even) {
+    background: #3c3f52;
+    }
+    .btn-group [id^="btnSelect"] {
+        width: 100%;
+        border-radius: 5px;
+        height: 35px;
+        background-color: #6272a4 !important;
+        margin-bottom: 0;
+        font-weight: normal !important;
+        padding: 8px 25px 8px 12px;
+        letter-spacing: normal !important;
+        -webkit-font-smoothing: initial;
+        border: 0px solid #e4eaec;
+        user-select: none;
+    }
+    .button.borderprimary,
+    button:not(.btn).borderprimary,
+    input[type=button].borderprimary,
+    input[type=submit].borderprimary {
+        color: #f1fa8c;
+        background-color: #6272a4;
+        border-color: #004d80;
+        font-weight: normal;
+    }
+    .column1.window > .conteudo,
+    .column2.window > .conteudo,
+    .lateral.window > .conteudo,
+    .principal.window > .conteudo {
+        padding: 12px 20px 12px 20px;
+        background: #44475a;
+    }
+    .column1.window > .bar,
+    .column2.window > .bar,
+    .lateral.window > .bar,
+    .principal.window > .bar {
+        max-height: 50px;
+        background: #6272a4;
+        border-bottom: 1px solid #f1fa8c;
+        position: relative;
+        border-radius: 4px 4px 0 0;
+        padding: 5px;
+    }
+    .column1.window > .bar > h2,
+    .column2.window > .bar > h2,
+    .lateral.window > .bar > h2,
+    .principal.window > .bar > h2 {
+        font-weight: 600;
+        color: #f1fa8c;
+    }
+}
