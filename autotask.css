@@ -1390,7 +1390,7 @@
     }
     .MultipleItemSelector > .ChipList.MultipleDataSelection,
     .MultipleDataSelector2 > .ChipList.MultipleDataSelection {
-        background-color: #bd93f9
+        background-color: #282a36
     }
     .MultipleDataSelector2.Disabled > .ChipList.MultipleDataSelection {
         background-color: #34424c
