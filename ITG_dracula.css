@@ -278,9 +278,34 @@
     }
     body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) .kaseya-ui-sidebar .sidebar-item a {
     color: #f8f8f2;
-}
+    }
+    
     body.ui-theme-dark:not(.myglue):not(.ui-theme-default):not(.ui-theme-classic) .sidebar-item__badge {
     color: #f1fa8c;
-}
+    }
+    
+    .search-bar-v3 .typeahead ul.tt-suggestions li.selected {
+    background-color: var(--searchbar-V3-row-selected);
+    color: #414141;
+    font-weight: 400;
+    }
+    
+    .search-bar-v3 .typeahead ul.tt-suggestions li.selected {
+    background-color: #282a36;
+    color: #414141;
+    font-weight: 400;
+    box-shadow: inset 0px 0px 5px #bd93f9;
+    }
+    
+    .react-selectable-list li.selectable-list-item:not(.disabled):hover, .react-selectable-list li.selected:not(.disabled) {
+    background-color: var(--selectable-list-active-color);
+    cursor: pointer;
+    }
+    
+    .search-bar-v3 .search-bar-v3-wrapper {
+    border-color: #bd93f9;
+    border-width: 2px;
+    box-shadow: 0px 0px 30px #bd93f98c;
+    }
 
     }

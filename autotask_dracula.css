@@ -660,7 +660,9 @@
     }
     .StopwatchContainer {
         background-color: #282a36;
-        border: 2px solid #bd93f9;
+        border-color: #bd93f9;
+        border-width: 2px;
+        box-shadow: 0px 0px 10px #bd93f9;
     }
     .ProgressBar > .ProgressBarContent > .Bar > .Progress {
         background-color: #8be9fd
@@ -916,11 +918,11 @@
     .Color15 .ColorSample,
     .ColorSwatch.Color15.ColorSample,
     .ColorSwatch.Color15 .ColorSample {
-        background-color: #12af8b
+        background-color: #50fa7b
     }
     .Color15.ColorText,
     .ColorSwatch.Color15.ColorText {
-        color: #12af8b
+        color: #50fa7b
     }
     .Color16.ColorSample,
     .Color16 .ColorSample,
@@ -1562,6 +1564,11 @@
     .BodyContainer .Section > .SectionContainer > .ContentContainer > .Content .TextArea2 > textarea {
         color: #f1fa8c
     }
+    .BodyContainer .Section {
+    border-color: #bd93f9;
+    border-width: 2px;
+    box-shadow: 0px 0px 20px #bd93f9;
+    }
     .MenuColumnSet1 > .MenuColumn1 > .MenuColumnText,
     .MenuColumnSet1 > .MenuColumn1 > .ButtonGroup1 > .Content1 > .MenuColumnText {
         color: #4e6973
@@ -2004,5 +2011,17 @@
     }
     .AppLauncherMenu > .ProductSections > .ProductSection > .ProductSectionBody > .AppLauncherMenuButton > a > .AppLauncherMenuButtonText > .ProductDescription {
         color: #b6b6b6
+    }
+    .InsightShell>.ContentContainer>.Content .LinkButton>.Button.Link, .InsightShell>.ContentContainer>.Content .LinkButton>.LinkButtonWrapper2>.LinkButton2 {
+    color: #8be9fd;
+    }
+    .DetailsSection>.CollapsibleSectionContainer>.ContentContainer>.Content>.ReadOnlyData>.ReadOnlyValueContainer>.Value>.LinkButtonWrapper2>div>.LinkButton2, .DetailsSection>.SectionContainer>.ContentContainer>.Content>.ReadOnlyData>.ReadOnlyValueContainer>.Value>.LinkButtonWrapper2>div>.LinkButton2, .ReadOnlyDetailsContainer>.ReadOnlyData>.ReadOnlyValueContainer>.Value>.LinkButtonWrapper2>div>.LinkButton2 {
+    color: #8be9fd;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    }
+    .InsightShell>.ContentContainer>.Content .Text.LowImportance, .InsightShell>.ContentContainer>.Content .Text.LowImportance>.Text {
+    color: #6272a4;
     }
 }
