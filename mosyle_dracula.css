@@ -29,8 +29,6 @@
             background: #1b1c24;
         }
         #main #main2 #main3 .column2 {
-            max-width: calc(50% - 20px);
-            min-width: calc(50% - 20px);
             margin-left: 20px;
             margin-right: 0px;
             box-shadow: 0px 0px 20px #bd93f9;
@@ -46,6 +44,16 @@
         #main #main2 #main3 #devicegroup_devices_count b {
             color: #f1fa8c !important;
         }
+        
+        #bulkoperations_main > div.box-elastic-fit.with-padding #div_bulk_by_import {
+            background: #6272a4 !important;
+            border-color: #bd93f9 !important;
+        }
+        
+        #bulkoperations_main > div.box-elastic-fit.with-padding #div_bulk_by_import div {
+            color: #f1fa8c !important;
+        }
+
         .mosyle-selector.form-style > .ms-button {
             background: #6272a4;
             color: #f8f8f2;
@@ -83,15 +91,18 @@
         .userheader_infos .code .qrcode {
             background: #f8f8f2;
         }
-
+        
         body.gradient {
             background: #282a36;
         }
         a,
         .a_link {
-            color: #ff79c6;
+            color: #bd93f9;
             text-decoration: none;
             cursor: pointer;
+        }
+        a:hover, .a_link:hover {
+            color: #ff79c6;
         }
         b,
         strong {
@@ -231,14 +242,17 @@
             border-color: #ff79c600;
         }
         input[type=checkbox] {
-            background: #bd93f9;
-            border: 0px solid #d1d8da !important;
-            border-radius: 4px;
+            background: #44475a;
+            border-color: #bd93f9 !important;
+            border-width: 2px !important;
+            box-shadow: 0px 0px 3px #bd93f9;
         }
         input[type=checkbox]:checked {
-            border-color: #ff79c6 !important;
-            background: #ff79c6 url(../icons-utils/FFFFFF/mosyle-icons/basic-icons/checkbox.svg) no-repeat center;
+            border-color: #a96dff !important;
+            background: #bd93f9 url(../icons-utils/FFFFFF/mosyle-icons/basic-icons/checkbox.svg) no-repeat center;
             background-size: 60%;
+            border-width: 2px !important;
+            box-shadow: 0px 0px 8px #d9bfff;
         }
         .multiselect_options > .option > .text {
             padding: 10px 0 0 2px;
@@ -421,6 +435,40 @@
         font-weight: 600;
         color: #ff79c6;
     }
+    
+    /* learned something cool here*/ 
+    .itab-mini .itab-content div:first-child:not(.box_info *):not(.CodeMirror *) {
+    background: #282a36 !important;
+    border-color: #bd93f9 !important;
+    border-width: 2px !important;
+    box-shadow: 0px 0px 5px #bd93f9 !important;
+    }
+
+
+    .button.borderprimary,
+    button:not(.btn).borderprimary,
+    input[type=button].borderprimary,
+    input[type=submit].borderprimary {
+        color: #f1fa8c;
+        border-color: #6272a4;
+        background: #6272a4;
+    }
+
+    .box_info {
+        background: #282a36;
+        border-color: #bd93f9;
+        border-width: 2px;
+        box-shadow: 0px 0px 5px #bd93f9;
+    }
+    
+    .multiselect_options>.option:hover>.options_inside {
+        background: #282a36;
+    }
+    
+    .multiselect_options>.option:hover>.options_inside div {
+        color: #f1fa8c;
+    }
+
     #mainScriptCatalog .script-column1 .text {
         color: #bd93f9;
         font-weight: 600;
@@ -433,6 +481,9 @@
     }
     #mainScriptCatalog .script-column1 {
         background: #282a36;
+    }
+    .script-column3.send-script-response .device-content span {
+        color: #f1fa8c;
     }
     .label_warning.red b,
     .label_warning.red strong,
@@ -454,6 +505,12 @@
     .CodeMirror {
         color: #f1fa8c;
         background: #282a36;
+    }
+    .CodeMirror-cursor {
+    border-left: 1px solid #bd93f9;
+    border-right: none;
+    width: 0;
+    box-shadow: 0px 0px 8px #bd93f9;
     }
     .CodeMirror-linenumber {
         color: #6272a4;
@@ -601,6 +658,15 @@
     .script-column3 .test-panel .tittle {
         color: #f1fa8c;
     }
+    .script-column3 .test-panel {
+        border: 1px solid #bd93f9 !important;
+        box-shadow: inset 0px 0px 15px #bd93f9;
+    }
+    .script-column2 #FreeScriptingForm {
+        flex-grow: 1;
+        border: 1px solid #bd93f9 !important;
+        box-shadow: inset 0px 0px 15px #bd93f9;
+    }
     .script-column3.response .grid-container-test .add-device,
     .script-column3.details-history .grid-container-test .add-device,
     .script-column3.send-script-response .grid-container-test .add-device {
@@ -610,6 +676,7 @@
     .script-column2 .run-script-button {
         background: #bd93f9;
         color: #f1fa8c;
+        box-shadow: 0px 0px 15px #bd93f9;
     }
     .script-column2 .favorite-button {
         background: #bd93f9;
