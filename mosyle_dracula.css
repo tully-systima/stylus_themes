@@ -500,6 +500,19 @@
         background-color: #282a36;
         border: 2px solid #bd93f9;
     }
+    
+    .onoffswitch label {
+        background-color: #282a36;
+        border: 1px solid #6272a4 !important;
+    }
+    .onoffswitch input:checked+label {
+        background-color: #bd93f9;
+        border: 1px solid #bd93f9 !important;
+        box-shadow: 0px 0px 15px #bd93f9;
+    }
+    .onoffswitch label:before {
+        background: #44475a;
+    }
 
     /* --------------------------- Code Editor --------------------------- */
     .CodeMirror {
