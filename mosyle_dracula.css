@@ -44,12 +44,12 @@
         #main #main2 #main3 #devicegroup_devices_count b {
             color: #f1fa8c !important;
         }
-        
+
         #bulkoperations_main > div.box-elastic-fit.with-padding #div_bulk_by_import {
             background: #6272a4 !important;
             border-color: #bd93f9 !important;
         }
-        
+
         #bulkoperations_main > div.box-elastic-fit.with-padding #div_bulk_by_import div {
             color: #f1fa8c !important;
         }
@@ -91,7 +91,7 @@
         .userheader_infos .code .qrcode {
             background: #f8f8f2;
         }
-        
+
         body.gradient {
             background: #282a36;
         }
@@ -101,7 +101,8 @@
             text-decoration: none;
             cursor: pointer;
         }
-        a:hover, .a_link:hover {
+        a:hover,
+        .a_link:hover {
             color: #ff79c6;
         }
         b,
@@ -435,13 +436,13 @@
         font-weight: 600;
         color: #ff79c6;
     }
-    
-    /* learned something cool here*/ 
+
+    /* learned something cool here*/
     .itab-mini .itab-content div:first-child:not(.box_info *):not(.CodeMirror *) {
-    background: #282a36 !important;
-    border-color: #bd93f9 !important;
-    border-width: 2px !important;
-    box-shadow: 0px 0px 5px #bd93f9 !important;
+        background: #282a36 !important;
+        border-color: #bd93f9 !important;
+        border-width: 2px !important;
+        box-shadow: 0px 0px 5px #bd93f9 !important;
     }
 
 
@@ -460,12 +461,12 @@
         border-width: 2px;
         box-shadow: 0px 0px 5px #bd93f9;
     }
-    
-    .multiselect_options>.option:hover>.options_inside {
+
+    .multiselect_options > .option:hover > .options_inside {
         background: #282a36;
     }
-    
-    .multiselect_options>.option:hover>.options_inside div {
+
+    .multiselect_options > .option:hover > .options_inside div {
         color: #f1fa8c;
     }
 
@@ -500,12 +501,12 @@
         background-color: #282a36;
         border: 2px solid #bd93f9;
     }
-    
+
     .onoffswitch label {
         background-color: #282a36;
         border: 1px solid #6272a4 !important;
     }
-    .onoffswitch input:checked+label {
+    .onoffswitch input:checked + label {
         background-color: #bd93f9;
         border: 1px solid #bd93f9 !important;
         box-shadow: 0px 0px 15px #bd93f9;
@@ -520,10 +521,10 @@
         background: #282a36;
     }
     .CodeMirror-cursor {
-    border-left: 1px solid #bd93f9;
-    border-right: none;
-    width: 0;
-    box-shadow: 0px 0px 8px #bd93f9;
+        border-left: 1px solid #bd93f9;
+        border-right: none;
+        width: 0;
+        box-shadow: 0px 0px 8px #bd93f9;
     }
     .CodeMirror-linenumber {
         color: #6272a4;
@@ -637,6 +638,24 @@
 
     .CodeMirror-composing {
         border-bottom: 2px solid;
+    }
+
+    [id^="test_"] > table > tbody > tr > th:nth-child(1) > div > b {
+        color: #f8f8f2 !important;
+    }
+
+    [id^="test_"] > table > tbody > tr > th:nth-child(2) > div.sent_status {
+        color: #f8f8f2 !important;
+    }
+
+    [id^="test_"] > table > tbody > tr > th:nth-child(2) > div.date_result {
+        color: #f8f8f2 !important;
+    }
+
+    .script-column3.response .test_result,
+    .script-column3.details-history .test_result,
+    .script-column3.send-script-response .test_result {
+        color: #f8f8f2 !important;
     }
 
     /* Default styles for common addons */
